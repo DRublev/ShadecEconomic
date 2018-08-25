@@ -1,6 +1,5 @@
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Debug\netstandard2.0\Economic.deps.json
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Debug\netstandard2.0\Economic.dll
-C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Debug\netstandard2.0\Economic.csprojAssemblyReference.cache
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Debug\netstandard2.0\Economic.csproj.CoreCompileInputs.cache
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Debug\netstandard2.0\Economic.AssemblyInfoInputs.cache
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Debug\netstandard2.0\Economic.AssemblyInfo.cs
