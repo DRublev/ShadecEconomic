@@ -12,10 +12,6 @@ namespace Economic
 		{
 			string content = null;
 
-			/*new Thread(() =>
-			{
-				
-			}).Start();*/
 			if (!File.Exists(filepath))
 			{
 				content = "File not found";

@@ -29,19 +29,7 @@ namespace Economic
 			string result = string.Empty;
 			string filepath = @"test.txt";
 
-			new Thread(() =>
-			{
-				Thread.CurrentThread.IsBackground = true;
-
-				if(!File.Exists(filepath))
-				{
-					result = "File not found";
-				}
-				else
-				{
-					result = File.ReadAllText(filepath);
-				}
-			}).Start();
+			result = FileReader.ReadFile(filepath);
 
             output.Append(result);
         }
