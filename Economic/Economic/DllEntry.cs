@@ -26,7 +26,7 @@ namespace Economic
 #endif
         public static void RvExtensionVersion(StringBuilder output, int outputSize)
 		{
-			string result = string.Empty;
+			string result = "Default result";
 			string filepath = @"test.txt";
 
 			result = FileReader.ReadFile(filepath);
