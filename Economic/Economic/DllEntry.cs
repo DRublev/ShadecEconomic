@@ -1,7 +1,9 @@
 ﻿using System;
+using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading;
 using RGiesecke.DllExport;
 
 namespace Economic
@@ -20,12 +22,29 @@ namespace Economic
 #if WIN64
         [DllExport("RVExtensionVersion", CallingConvention = CallingConvention.Winapi)]
 #else
-		[DllImport("_RVExtensionVersion@8", CallingConvention = CallingConvention.Winapi)]
+        [DllExport("_RVExtensionVersion@8", CallingConvention = CallingConvention.Winapi)]
 #endif
-		public static void RvExtensionVersion(StringBuilder output, int outputSize)
+        public static void RvExtensionVersion(StringBuilder output, int outputSize)
 		{
+			string result = string.Empty;
+			string filepath = @"test.txt";
 
-		}
+			new Thread(() =>
+			{
+				Thread.CurrentThread.IsBackground = true;
+
+				if(!File.Exists(filepath))
+				{
+					result = "File not found";
+				}
+				else
+				{
+					result = File.ReadAllText(filepath);
+				}
+			}).Start();
+
+            output.Append(result);
+        }
 
 		/// <summary>
 		/// The entry point for the default callExtension command.
