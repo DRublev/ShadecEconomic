@@ -81,13 +81,13 @@ namespace Economic
 				catch
 				{
 					// TODO: Log or not? That's the question
-					return null;
+					return 1;
 				}
 			}
 			else
 			{
 				// Method with such name not found
-				return null;
+				return 2;
 			}
 		}
 

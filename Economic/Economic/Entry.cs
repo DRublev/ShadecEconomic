@@ -13,20 +13,14 @@ namespace Economic
 		[ArmaDllExport]
 		public static string Invoke(string methodName, int size)
 		{
-			object result = MethodCaller.Instance.Call(methodName);
+			object result = "shit";//MethodCaller.Instance.Call(methodName);
 
-			return $"Result of magic execution: {result}";
-		}
+			if(methodName == "GetPlayerCash")
+			{
+				result = (new PlayerBalanceManager()).GetPlayerCash("asd");
+			}
 
-		[ArmaDllExport]
-		public static int RvExtensionArgs(string methodName,
-			int size,
-			[MarshalAs(UnmanagedType.LPArray, ArraySubType = UnmanagedType.LPStr, SizeParamIndex = 4)] string[] args,
-			int argCount)
-		{
-			object result = MethodCaller.Instance.Call(methodName, args);
-
-			return (result == null) ? 1 : 0;
+			return $"Result of magic execution: {result.ToString()}";
 		}
 	}
 }
