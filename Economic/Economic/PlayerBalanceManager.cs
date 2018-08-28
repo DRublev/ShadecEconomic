@@ -8,6 +8,11 @@ namespace Economic
 {
 	public class PlayerBalanceManager
 	{
+		public PlayerBalanceManager()
+		{
+
+		}
+
 		public int AddCashToBalance(int amount)
 		{
 			GSWorker.Instance.TestPlayerBalance += amount;

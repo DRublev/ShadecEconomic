@@ -13,14 +13,9 @@ namespace Economic
 		[ArmaDllExport]
 		public static string Invoke(string methodName, int size)
 		{
-			object result = "shit";//MethodCaller.Instance.Call(methodName);
-
-			if(methodName == "GetPlayerCash")
-			{
-				result = (new PlayerBalanceManager()).GetPlayerCash("asd");
-			}
-
-			return $"Result of magic execution: {result.ToString()}";
+			object result = MethodCaller.Instance.Call(methodName, new object[1] { "780313154646" });
+			
+			return $"{result}";
 		}
 	}
 }

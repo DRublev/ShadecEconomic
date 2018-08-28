@@ -28,7 +28,7 @@ namespace Economic
 		/// <summary>
 		/// All methods in executing namespace. 
 		/// Key - method name
-		/// Value - method's MethodInfo
+		/// Value - method's caller class Type
 		/// </summary>
 		private Hashtable availableMethods = new Hashtable();
 
@@ -56,7 +56,7 @@ namespace Economic
 				{
 					if (!availableMethods.ContainsKey(m.Name))
 					{
-						availableMethods.Add(m.Name, m);
+						availableMethods.Add(m.Name, t);
 					}
 				});
 			});
@@ -68,19 +68,23 @@ namespace Economic
 		/// <param name="methodName"></param>
 		/// <param name="arguments"></param>
 		/// <returns></returns>
-		public object Call(string methodName, params object[] arguments)
+		public object Call(string methodName, object[] arguments)
 		{
 			if(availableMethods.ContainsKey(methodName))
 			{
 				try
 				{
-					MethodInfo methodInfo = (MethodInfo)availableMethods[methodName];
+					Type callerType = (Type)availableMethods[methodName];
+					MethodInfo methodInfo = callerType.GetMethod(methodName);
 
-					return methodInfo.Invoke(Activator.CreateInstance(methodInfo.DeclaringType), arguments);
+					object callerInstance = Activator.CreateInstance(callerType);
+
+					return methodInfo.Invoke(callerInstance, BindingFlags.CreateInstance, null, arguments, null);
 				}
-				catch
+				catch (Exception ex)
 				{
 					// TODO: Log or not? That's the question
+
 					return 1;
 				}
 			}
@@ -91,9 +95,9 @@ namespace Economic
 			}
 		}
 
-		~MethodCaller()
+		/*~MethodCaller()
 		{
 			availableMethods = null;
-		}
+		}*/
 	}
 }
