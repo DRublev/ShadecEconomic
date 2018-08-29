@@ -51,8 +51,8 @@
     <Reference Include="Google.Apis.PlatformServices, Version=1.35.1.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Apis.1.35.1\lib\net45\Google.Apis.PlatformServices.dll</HintPath>
     </Reference>
-    <Reference Include="Google.Apis.Sheets.v4, Version=1.35.1.1327, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
-      <HintPath>..\packages\Google.Apis.Sheets.v4.1.35.1.1327\lib\net45\Google.Apis.Sheets.v4.dll</HintPath>
+    <Reference Include="Google.Apis.Sheets.v4, Version=1.35.1.1335, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\..\..\Google.Apis.Sheets.v4.1.35.1.1335\lib\net45\Google.Apis.Sheets.v4.dll</HintPath>
     </Reference>
     <Reference Include="Maca134.Arma.DllExport, Version=0.0.2.7, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Maca134.Arma.DllExport.0.0.2.7\lib\net\Maca134.Arma.DllExport.dll</HintPath>
@@ -75,9 +75,13 @@
     <Compile Include="GSWorker.cs" />
     <Compile Include="MethodCaller.cs" />
     <Compile Include="PlayerBalanceManager.cs" />
+    <Compile Include="PriceManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="credentials.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

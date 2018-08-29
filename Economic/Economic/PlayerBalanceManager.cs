@@ -24,7 +24,22 @@ namespace Economic
 		{
 			if(steamId != null)
 			{
-				return GSWorker.Instance.TestPlayerBalance;
+				try
+				{
+					List<object> playerInfo = GSWorker.Instance.ReadDataFromSheet(rangeCols: "A1:C")
+					.Single(el => el.ElementAt(0).ToString() == steamId);
+
+					if(playerInfo.ElementAt(2) == null)
+					{
+						return 2;
+					}
+
+					return Convert.ToInt32(playerInfo.ElementAt(2));
+				}
+				catch
+				{
+					return 1;
+				}
 			}
 			else
 			{
