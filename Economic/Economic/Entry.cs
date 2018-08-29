@@ -11,9 +11,10 @@ namespace Economic
     public class Entry
     {
 		[ArmaDllExport]
-		public static string Invoke(string methodName, int size)
+		public static string Invoke(string input, int size)
 		{
-			object result = MethodCaller.Instance.Call(methodName, new object[1] { "780313154646" });
+			(object[] args, string methodName) parameters = MethodCaller.Instance.ParseInput(input);
+			object result = MethodCaller.Instance.Call(parameters.methodName, parameters.args);
 			
 			return $"{result}";
 		}
