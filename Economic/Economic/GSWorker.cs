@@ -39,9 +39,6 @@ namespace Economic
 		private const string spreadheetId = "1K_mWlNjXGl_txJuW-XuCspVQ5yBm6zPOseU7BIZou5U";
 		private const string sheetName = "test";
 
-
-		public int TestPlayerBalance = 5000;
-
 		public GSWorker()
 		{
 			FillCredential();
