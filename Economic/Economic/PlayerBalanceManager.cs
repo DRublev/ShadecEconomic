@@ -25,7 +25,7 @@ namespace Economic
 				List<object> playerInfo = GSWorker.Instance.ReadDataFromSheet(rangeCols: "A:D")
 					.Single(el => el.ElementAt(0).ToString() == steamId);
 
-				playerInfo[2] = (object)cash;
+				playerInfo[2] = cash;
 
 				GSWorker.Instance.UpdateDataInSheet(playerInfo);
 			}
