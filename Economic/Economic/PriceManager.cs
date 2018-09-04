@@ -37,7 +37,7 @@ namespace Economic
 
 				price = Convert.ToInt32(itemInfo.ElementAt(1));
 			}
-			catch
+			catch(Exception ex)
 			{
 				return 2;
 			}

@@ -70,28 +70,33 @@ namespace Economic
 		/// <returns></returns>
 		public object Call(string methodName, object[] arguments)
 		{
-			if(availableMethods.ContainsKey(methodName))
+			try
 			{
-				try
+				if (availableMethods.ContainsKey(methodName))
 				{
-					Type callerType = (Type)availableMethods[methodName];
-					MethodInfo methodInfo = callerType.GetMethod(methodName);
+					try
+					{
+						Type callerType = (Type)availableMethods[methodName];
+						MethodInfo methodInfo = callerType.GetMethod(methodName);
 
-					object callerInstance = Activator.CreateInstance(callerType);
+						object callerInstance = Activator.CreateInstance(callerType, true);
 
-					return methodInfo.Invoke(callerInstance, BindingFlags.CreateInstance, null, arguments, null);
+						return methodInfo.Invoke(callerInstance, BindingFlags.CreateInstance, null, arguments, null);
+					}
+					catch (Exception ex)
+					{
+						return $"Call method error: {ex.InnerException.GetType()} {ex.InnerException.StackTrace}";
+					}
 				}
-				catch (Exception ex)
+				else
 				{
-					// TODO: Log or not? That's the question
-
-					return 1;
+					// Method with such name not found
+					return $"Method with such name doesn't exist";
 				}
 			}
-			else
+			catch(Exception ex)
 			{
-				// Method with such name not found
-				return 2;
+				return $"Can't call method, error: {ex.GetType()}";
 			}
 		}
 
@@ -106,22 +111,23 @@ namespace Economic
 
 			string methodName = input.Substring(closeBracePos + 1);
 
-			char[] arguments = new char[input.Length - methodName.Length];
+			char[] arguments = new char[100];
 			input.CopyTo(1, arguments, 0, closeBracePos - 1);
 
-			List<object> args= new List<object>();
+			List<object> args = new List<object>();
 
 			if(input.Contains(","))
 			{
-				foreach (string argumentString in arguments.ToString().Split(','))
+				string[] splitted = arguments.ToString().Split(',');
+				foreach (string argumentString in splitted)
 				{
 					object argument = argumentString.Trim(' ');
-					args.Add(argument.ToString());
+					args.Add(argument);
 				}
 			}
 			else
 			{
-				args.Add(input.Substring(1, closeBracePos - 1).ToString());
+				args.Add(input.Substring(1, closeBracePos - 1));
 			}
 
 			return (args.ToArray(), methodName);

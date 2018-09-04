@@ -22,10 +22,10 @@ namespace Economic
 
 			try
 			{
-				List<object> playerInfo = GSWorker.Instance.ReadDataFromSheet(rangeCols: "A:D")
+				List<object> playerInfo = GSWorker.Instance.ReadDataFromSheet(rangeCols: "A1:D")
 					.Single(el => el.ElementAt(0).ToString() == steamId);
 
-				playerInfo[2] = cash;
+				playerInfo[2] = (object)cash;
 
 				GSWorker.Instance.UpdateDataInSheet(playerInfo);
 			}
@@ -44,8 +44,8 @@ namespace Economic
 
 			try
 			{
-				List<object> playerInfo = GSWorker.Instance.ReadDataFromSheet(rangeCols: "A:C")
-				.Single(el => el.ElementAt(0).ToString() == steamId);
+				List<object> playerInfo = GSWorker.Instance.ReadDataFromSheet(rangeCols: "A:D")
+					.Single(el => el.ElementAt(0).ToString() == steamId);
 
 				if (playerInfo.ElementAt(2) == null)
 				{
@@ -54,7 +54,7 @@ namespace Economic
 
 				return Convert.ToInt32(playerInfo.ElementAt(2));
 			}
-			catch
+			catch(Exception ex)
 			{
 				return 1;
 			}

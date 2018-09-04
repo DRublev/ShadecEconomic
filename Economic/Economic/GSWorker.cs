@@ -89,9 +89,7 @@ namespace Economic
 			}
 			catch(Exception ex)
 			{
-				// TODO: Do a fucking Logger!
 
-				Console.WriteLine(ex.Message);
 			}
 
 			return result;

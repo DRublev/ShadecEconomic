@@ -16,23 +16,38 @@ namespace Economic
 			}
 
 			string loadout = string.Empty;
+			List<object> playerInfo = new List<object>();
 
 			try
 			{
-				List<object> playerInfo = GSWorker.Instance.ReadDataFromSheet()
-					.Single(el => el.ElementAt(0).ToString() == steamId);
-
-				if(playerInfo.ElementAt(3) == null)
+				List<List<object>> allInfo = GSWorker.Instance.ReadDataFromSheet();
+				
+				if(!allInfo.Exists(item => item.ElementAt(0).ToString() == steamId))
 				{
-					return "Empty loadout";
+					return $"Can't find loadout with this steamId: {steamId}";
 				}
 
+				playerInfo = allInfo.Single(item => item.ElementAt(0).ToString() == steamId);
+			}
+			catch (Exception ex)
+			{
+				return $"Exception: {ex.StackTrace}";
+			}
+
+			if (playerInfo.ElementAt(3) == null)
+			{
+				return "Empty loadout";
+			}
+
+			try
+			{
 				loadout = playerInfo.ElementAt(3).ToString();
 			}
-			catch
+			catch(Exception ex)
 			{
-				return "Exception";
+				return $"Can't get loadout: {ex.Message}";
 			}
+			
 
 			return loadout;
 		}
