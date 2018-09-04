@@ -15,14 +15,7 @@ namespace Economic
 		{
 			(object[] args, string methodName) parameters = MethodCaller.Instance.ParseInput(input);
 			object result = MethodCaller.Instance.Call(parameters.methodName, parameters.args);
-
-			string ps = string.Empty;
-
-			/*foreach(var p in parameters.args)
-			{
-				ps += p;
-			}*/
-
+			
 			return $"{result}";
 		}
 	}

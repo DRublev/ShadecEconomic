@@ -4,7 +4,6 @@ C:\Users\aring\source\repos\Economic\Economic\obj\Debug\Economic.csproj.CoreComp
 C:\Users\aring\source\repos\Economic\Economic\obj\Debug\Economic.dll
 C:\Users\aring\source\repos\Economic\Economic\obj\Debug\Economic.pdb
 C:\Users\aring\source\repos\Economic\Economic\obj\Debug\Economic.csprojAssemblyReference.cache
-C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Debug\credentials.json
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Debug\Economic.dll
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Debug\Economic.pdb
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Debug\Google.Apis.Auth.dll
@@ -27,8 +26,5 @@ C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\ob
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Debug\Economic.csproj.CopyComplete
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Debug\Economic.dll
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Debug\Economic.pdb
-<<<<<<< HEAD
-=======
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Debug\credentials.json
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Debug\Economic.csprojAssemblyReference.cache
->>>>>>> parent of c1e5db7... Fixed some bugs

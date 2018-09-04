@@ -39,9 +39,6 @@ namespace Economic
 		private const string spreadheetId = "1K_mWlNjXGl_txJuW-XuCspVQ5yBm6zPOseU7BIZou5U";
 		private const string sheetName = "test";
 
-
-		public int TestPlayerBalance = 5000;
-
 		public GSWorker()
 		{
 			FillCredential();
@@ -92,7 +89,9 @@ namespace Economic
 			}
 			catch(Exception ex)
 			{
+				// TODO: Do a fucking Logger!
 
+				Console.WriteLine(ex.Message);
 			}
 
 			return result;

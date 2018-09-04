@@ -19,14 +19,16 @@ namespace Economic
 				return 1;
 			}
 
-			List<object> itemInfo = GSWorker.Instance.ReadDataFromSheet(pricesSheetName, "A:B")
-				.Single(item => item.ElementAt(0).ToString() == itemClassName);
+			List<object> itemInfo = new List<object>();
 
 			try
 			{
+				itemInfo = GSWorker.Instance.ReadDataFromSheet(pricesSheetName, "A:B")
+				.Single(item => item.ElementAt(0).ToString() == itemClassName);
+
 				price = Convert.ToInt32(itemInfo.ElementAt(1));
 			}
-			catch(Exception ex)
+			catch
 			{
 				return 2;
 			}
