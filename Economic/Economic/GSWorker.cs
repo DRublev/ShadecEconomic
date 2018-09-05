@@ -53,7 +53,7 @@ namespace Economic
 		private void FillCredential()
 		{
 			using (var stream =
-				new FileStream("credentials.json", FileMode.Open, FileAccess.Read))
+				new FileStream(@"credentials.json", FileMode.Open, FileAccess.ReadWrite))
 			{
 				string credentialPath = "token.json";
 				credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
@@ -89,9 +89,7 @@ namespace Economic
 			}
 			catch(Exception ex)
 			{
-				// TODO: Do a fucking Logger!
-
-				Console.WriteLine(ex.Message);
+				return null;
 			}
 
 			return result;

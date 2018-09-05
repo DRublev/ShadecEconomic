@@ -23,8 +23,8 @@ namespace Economic
 
 			try
 			{
-				itemInfo = GSWorker.Instance.ReadDataFromSheet(pricesSheetName, "A:B")
-				.Single(item => item.ElementAt(0).ToString() == itemClassName);
+				itemInfo = GSWorker.Instance.ReadDataFromSheet(pricesSheetName, "A1:C")
+				.Single(item => item.Last().ToString() == itemClassName);
 
 				price = Convert.ToInt32(itemInfo.ElementAt(1));
 			}
@@ -38,8 +38,8 @@ namespace Economic
 
 		public List<object> GetItemInfo(string itemClassName)
 		{
-			List<object> itemInfo = GSWorker.Instance.ReadDataFromSheet(pricesSheetName, "A:B")
-				.Single(item => item.ElementAt(0).ToString() == itemClassName);
+			List<object> itemInfo = GSWorker.Instance.ReadDataFromSheet(pricesSheetName, "A1:C")
+				.Single(item => item.ElementAt(2).ToString() == itemClassName);
 
 			return itemInfo;
 		}

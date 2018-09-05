@@ -42,22 +42,27 @@ namespace Economic
 				return 0;
 			}
 
+			List<object> playerInfo = new List<object>();
+			int cash = 0;
+
 			try
 			{
-				List<object> playerInfo = GSWorker.Instance.ReadDataFromSheet(rangeCols: "A:C")
-				.Single(el => el.ElementAt(0).ToString() == steamId);
+				playerInfo = GSWorker.Instance.ReadDataFromSheet("test", "A1:D")
+				.Single(item => item.First().ToString() == steamId);
 
-				if (playerInfo.ElementAt(2) == null)
-				{
-					return 2;
-				}
-
-				return Convert.ToInt32(playerInfo.ElementAt(2));
+				cash = Convert.ToInt32(playerInfo.ElementAt(2));
 			}
 			catch
 			{
-				return 1;
+				return 2;
 			}
+
+			return cash;
+		}
+
+		public int GetBalanceTest()
+		{
+			return 580;
 		}
 	}
 }

@@ -72,21 +72,22 @@ namespace Economic
 		{
 			if(availableMethods.ContainsKey(methodName))
 			{
+				MethodInfo methodInfo = null;
+				object callerInstance = null;
+
 				try
 				{
 					Type callerType = (Type)availableMethods[methodName];
-					MethodInfo methodInfo = callerType.GetMethod(methodName);
+					methodInfo = callerType.GetMethod(methodName);
 
-					object callerInstance = Activator.CreateInstance(callerType);
-
-					return methodInfo.Invoke(callerInstance, BindingFlags.CreateInstance, null, arguments, null);
+					callerInstance = Activator.CreateInstance(callerType);
 				}
-				catch (Exception ex)
+				catch
 				{
-					// TODO: Log or not? That's the question
-
-					return 1;
+					return 5;
 				}
+
+				return methodInfo.Invoke(callerInstance, arguments);
 			}
 			else
 			{
@@ -127,9 +128,5 @@ namespace Economic
 			return (args.ToArray(), methodName);
 		}
 
-		~MethodCaller()
-		{
-			availableMethods = null;
-		}
 	}
 }
