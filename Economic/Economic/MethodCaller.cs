@@ -117,7 +117,7 @@ namespace Economic
 				foreach (string argumentString in arguments.ToString().Split(','))
 				{
 					object argument = argumentString.Trim(' ');
-					args.Add(argument.ToString());
+					args.Add(argument.ToString()); 
 				}
 			}
 			else
