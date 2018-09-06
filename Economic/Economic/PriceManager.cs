@@ -10,6 +10,13 @@ namespace Economic
 	{
 		private const string pricesSheetName = "prices";
 
+		private ISheetDataWorker dataWorker;
+
+		public PriceManager()
+		{
+			dataWorker = new ExcelDataWorker();
+		}
+
 		public int GetItemPrice(string itemClassName)
 		{
 			int price = 0;
@@ -23,8 +30,8 @@ namespace Economic
 
 			try
 			{
-				itemInfo = GSWorker.Instance.ReadDataFromSheet(pricesSheetName, "A1:C")
-				.Single(item => item.Last().ToString() == itemClassName);
+				itemInfo = dataWorker.ReadData("prices", "A1:D")
+					.Single(item => item.Last().ToString() == itemClassName);
 
 				price = Convert.ToInt32(itemInfo.ElementAt(1));
 			}
@@ -38,7 +45,7 @@ namespace Economic
 
 		public List<object> GetItemInfo(string itemClassName)
 		{
-			List<object> itemInfo = GSWorker.Instance.ReadDataFromSheet(pricesSheetName, "A1:C")
+			List<object> itemInfo = GSDataWorker.Instance.ReadData(pricesSheetName, "A1:C")
 				.Single(item => item.ElementAt(2).ToString() == itemClassName);
 
 			return itemInfo;

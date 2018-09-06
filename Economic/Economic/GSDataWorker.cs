@@ -16,16 +16,16 @@ namespace Economic
 	/// <summary>
 	/// Working with Google Spreadsheets
 	/// </summary>
-	public class GSWorker
+	public class GSDataWorker : ISheetDataWorker
 	{
-		private static GSWorker instance = null;
-		public static GSWorker Instance
+		private static GSDataWorker instance = null;
+		public static GSDataWorker Instance
 		{
 			get
 			{
 				if(instance == null)
 				{
-					instance = new GSWorker();
+					instance = new GSDataWorker();
 				}
 
 				return instance;
@@ -39,7 +39,7 @@ namespace Economic
 		private const string spreadheetId = "1K_mWlNjXGl_txJuW-XuCspVQ5yBm6zPOseU7BIZou5U";
 		private const string sheetName = "test";
 
-		public GSWorker()
+		public GSDataWorker()
 		{
 			FillCredential();
 
@@ -65,7 +65,7 @@ namespace Economic
 			}
 		}
 
-		public List<List<object>> ReadDataFromSheet(string sheetName = sheetName, string rangeCols = "A:D")
+		public List<List<object>> ReadData(string sheetName = sheetName, string rangeCols = "A1:D")
 		{
 			List<List<object>> result = new List<List<object>>();
 
@@ -95,31 +95,31 @@ namespace Economic
 			return result;
 		}
 
-		public void InsertDataToSheet(List<object> data, string sheetName = sheetName, string rangeCols = "A:D")
+		public void WriteData(List<List<object>> data, string sheetName = sheetName, string rangeCols = "A1:D")
 		{
 			var range = $"{sheetName}!{rangeCols}";
 			var valueRange = new ValueRange();
 
-			valueRange.Values = new List<IList<object>> { data };
+			valueRange.Values = (IList<IList<object>>)data;
 
 			var appendRequest = sheetsService.Spreadsheets.Values.Append(valueRange, spreadheetId, range);
 			appendRequest.ValueInputOption = SpreadsheetsResource.ValuesResource.AppendRequest.ValueInputOptionEnum.USERENTERED;
 			var appendReponse = appendRequest.Execute();
 		}
 
-		public void UpdateDataInSheet(List<object> data, string sheetName = sheetName, string rangeCols = "A:D")
+		public void UpdateData(List<object> data, string sheetName = sheetName, string rangeCols = "A1:D")
 		{
 			var range = $"{sheetName}!{rangeCols}";
 			var valueRange = new ValueRange();
 
-			valueRange.Values = new List<IList<object>> { data };
+			valueRange.Values = (IList<IList<object>>)data;
 
 			var updateRequest = sheetsService.Spreadsheets.Values.Update(valueRange, spreadheetId, range);
 			updateRequest.ValueInputOption = SpreadsheetsResource.ValuesResource.UpdateRequest.ValueInputOptionEnum.USERENTERED;
 			var appendReponse = updateRequest.Execute();
 		}
 
-		public void DeleteEntry(string sheetName = sheetName, string rangeCols = "A:D")
+		public void DeleteData(string sheetName = sheetName, string rangeCols = "A1:D")
 		{
 			var range = $"{sheetName}!{rangeCols}";
 			var requestBody = new ClearValuesRequest();

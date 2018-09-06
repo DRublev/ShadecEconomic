@@ -13,10 +13,8 @@ namespace Economic
 		[ArmaDllExport]
 		public static string Invoke(string input, int size)
 		{
-			/*(object[] args, string methodName) parameters = MethodCaller.Instance.ParseInput(input);
-			object result = MethodCaller.Instance.Call(parameters.methodName, parameters.args);*/
-
-			var result = MethodCaller.Instance.Call("GetPlayerCash", new object[] { "76561198140185053" });
+			(object[] args, string methodName) parameters = MethodCaller.Instance.ParseInput(input);
+			object result = MethodCaller.Instance.Call(parameters.methodName, parameters.args);
 
 			return $"{result.ToString()}";
 		}

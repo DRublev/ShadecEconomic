@@ -8,9 +8,11 @@ namespace Economic
 {
 	public class PlayerBalanceManager
 	{
+		private ISheetDataWorker dataWorker;
+
 		public PlayerBalanceManager()
 		{
-
+			dataWorker = new ExcelDataWorker();
 		}
 
 		public void SetPlayerCash(int cash, string steamId = null)
@@ -22,12 +24,12 @@ namespace Economic
 
 			try
 			{
-				List<object> playerInfo = GSWorker.Instance.ReadDataFromSheet(rangeCols: "A:D")
+				List<object> playerInfo = GSDataWorker.Instance.ReadData(rangeCols: "A:D")
 					.Single(el => el.ElementAt(0).ToString() == steamId);
 
 				playerInfo[2] = (object)cash;
 
-				GSWorker.Instance.UpdateDataInSheet(playerInfo);
+				GSDataWorker.Instance.UpdateData(playerInfo);
 			}
 			catch
 			{
@@ -37,7 +39,8 @@ namespace Economic
 
 		public int GetPlayerCash(string steamId = null)
 		{
-			if(steamId == null)
+
+			if (steamId == null)
 			{
 				return 0;
 			}
@@ -47,7 +50,7 @@ namespace Economic
 
 			try
 			{
-				playerInfo = GSWorker.Instance.ReadDataFromSheet("test", "A1:D")
+				playerInfo = dataWorker.ReadData("test", "A1:D")
 				.Single(item => item.First().ToString() == steamId);
 
 				cash = Convert.ToInt32(playerInfo.ElementAt(2));
@@ -58,11 +61,6 @@ namespace Economic
 			}
 
 			return cash;
-		}
-
-		public int GetBalanceTest()
-		{
-			return 580;
 		}
 	}
 }

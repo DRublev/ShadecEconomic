@@ -84,7 +84,7 @@ namespace Economic
 				}
 				catch
 				{
-					return 5;
+					return availableMethods.Count;
 				}
 
 				return methodInfo.Invoke(callerInstance, arguments);
