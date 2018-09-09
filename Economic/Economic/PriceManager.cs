@@ -14,7 +14,7 @@ namespace Economic
 
 		public PriceManager()
 		{
-			dataWorker = new ExcelDataWorker();
+			dataWorker = new CsvDataWorker();
 		}
 
 		public int GetItemPrice(string itemClassName)

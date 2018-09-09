@@ -31,3 +31,4 @@ C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\ob
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Release\Economic.dll
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Release\Economic.pdb
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Release\shadec.xlsx
+C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Release\Economic.csprojAssemblyReference.cache

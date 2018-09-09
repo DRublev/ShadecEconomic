@@ -12,7 +12,7 @@ namespace Economic
 
 		public PlayerBalanceManager()
 		{
-			dataWorker = new ExcelDataWorker();
+			dataWorker = new CsvDataWorker();
 		}
 
 		public void SetPlayerCash(int cash, string steamId = null)
