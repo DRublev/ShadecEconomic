@@ -12,7 +12,7 @@ namespace Economic
 
 		public InventoryManager()
 		{
-			dataWorker = new ExcelDataWorker();
+			dataWorker = new CsvDataWorker();
 		}
 
 		public string GetPlayerSavedLoadout(string steamId)

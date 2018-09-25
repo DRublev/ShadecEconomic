@@ -24,7 +24,7 @@ namespace Economic
 
 			try
 			{
-				List<object> playerInfo = GSDataWorker.Instance.ReadData(rangeCols: "A:D")
+				List<object> playerInfo = dataWorker.ReadData("test", range: "A:D")
 					.Single(el => el.ElementAt(0).ToString() == steamId);
 
 				playerInfo[2] = (object)cash;
@@ -51,7 +51,7 @@ namespace Economic
 			try
 			{
 				playerInfo = dataWorker.ReadData("test", "A1:D")
-				.Single(item => item.First().ToString() == steamId);
+					.Single(item => item.First().ToString() == steamId);
 
 				cash = Convert.ToInt32(playerInfo.ElementAt(2));
 			}

@@ -97,7 +97,7 @@ namespace Economic
 		}
 
 		/// <summary>
-		/// Use this to process the input string from SQf to MethodCaller.Call() parameters
+		/// Use this to process the input string from Sqf to MethodCaller.Call() parameters
 		/// </summary>
 		/// <param name="input">Must have format "[arg1, ..., argN]functionName"</param>
 		/// <returns>Method name to call and arguments to pass to that method</returns>

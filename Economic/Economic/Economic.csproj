@@ -90,11 +90,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CsvDataWorker.cs" />
+    <Compile Include="CustomException.cs" />
     <Compile Include="Entry.cs" />
     <Compile Include="ExcelDataWorker.cs" />
     <Compile Include="GSDataWorker.cs" />
     <Compile Include="InventoryManager.cs" />
     <Compile Include="ISheetDataWorker.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="MethodCaller.cs" />
     <Compile Include="PlayerBalanceManager.cs" />
     <Compile Include="PriceManager.cs" />
