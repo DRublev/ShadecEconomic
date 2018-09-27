@@ -8,11 +8,11 @@ namespace Economic
 {
 	public class InventoryManager
 	{
-		private ISheetDataWorker dataWorker;
+		private IDataHandler dataWorker;
 
 		public InventoryManager()
 		{
-			dataWorker = new CsvDataWorker();
+			dataWorker = new CsvDataHandler();
 		}
 
 		public string GetPlayerSavedLoadout(string steamId)
@@ -27,7 +27,7 @@ namespace Economic
 
 			try
 			{
-				playerInfo = dataWorker.ReadData("test", "A1:D")
+				playerInfo = dataWorker.ReadData("test")
 					.Single(item => item.First().ToString() == steamId);
 
 				if (string.IsNullOrEmpty(playerInfo.ElementAt(3).ToString()))
@@ -55,16 +55,26 @@ namespace Economic
 
 			try
 			{
-				List<object> oldPlayerData = dataWorker.ReadData("test", "")
+				List<object> oldPlayerData = dataWorker.ReadData("test")
 					.Single(el => el.ElementAt(0).ToString() == steamId);
 
-				oldPlayerData[3] = loadout;
-				dataWorker.UpdateData(oldPlayerData, "test", "");
+				List<object> newPlayerData = oldPlayerData;
+				newPlayerData[3] = loadout;
+				dataWorker.UpdateData(newPlayerData, oldPlayerData, "test");
 			}
 			catch
 			{
 				return;
 			}
+		}
+
+		public int NewGearCost(string old, string newOne)
+		{
+			int cost = 0;
+
+
+
+			return cost;
 		}
 	}
 }
