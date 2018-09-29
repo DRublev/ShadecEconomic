@@ -26,6 +26,15 @@ namespace Economic
 
 		}
 
+		public bool isDataExist(List<object> data)
+		{
+			bool founded = false;
+
+
+
+			return founded;
+		}
+
 		public List<List<object>> ReadData(string sheetName = "test")
 		{
 			List<List<object>> info = new List<List<object>>();

@@ -33,6 +33,9 @@ namespace Economic
 
 		}
 
+		public void Log(string message)
+		{
 
+		}
 	}
 }

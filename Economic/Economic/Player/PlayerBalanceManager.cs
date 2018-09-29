@@ -29,6 +29,7 @@ namespace Economic
 
 				if(playerInfo == null)
 				{
+
 					throw new Exception("Player is null");
 				}
 
