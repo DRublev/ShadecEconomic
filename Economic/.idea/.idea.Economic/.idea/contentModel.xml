@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\aring\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\aring\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Economic.-929432194.00" t="ExcludeRecursive" />
+    <e p="C:\Users\aring\OneDrive\Рабочий стол\Arbeiten\Projects\Personal\ShadecEconomic\Economic" t="IncludeFlat">
+      <e p="Economic" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="credentials.json" t="Include" />
+        <e p="CustomException.cs" t="Include" />
+        <e p="Data" t="Include">
+          <e p="CsvDataHandler.cs" t="Include" />
+          <e p="DataConfig.cs" t="Include" />
+          <e p="IDataHandler.cs" t="Include" />
+        </e>
+        <e p="Economic.csproj" t="IncludeRecursive" />
+        <e p="Entry.cs" t="Include" />
+        <e p="Items" t="Include">
+          <e p="PriceManager.cs" t="Include" />
+        </e>
+        <e p="Logger.cs" t="Include" />
+        <e p="MethodCaller.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Player" t="Include">
+          <e p="InventoryManager.cs" t="Include" />
+          <e p="PlayerBalanceManager.cs" t="Include" />
+          <e p="PlayerHandler.cs" t="Include" />
+          <e p="PlayersConfig.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="shadec-prices.csv" t="Include" />
+        <e p="shadec.csv" t="Include" />
+        <e p="StringExtesion.cs" t="Include" />
+      </e>
+      <e p="Economic.sln" t="IncludeFlat" />
+      <e p="EconomicTests" t="IncludeRecursive">
+        <e p="EconomicTests.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

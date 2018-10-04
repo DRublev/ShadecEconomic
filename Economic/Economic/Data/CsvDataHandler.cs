@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Economic
+namespace Economic.Data
 {
 	public class CsvDataHandler : IDataHandler
 	{
@@ -24,53 +24,6 @@ namespace Economic
 		~CsvDataHandler()
 		{
 
-		}
-
-		public bool isDataExist(List<object> data)
-		{
-			bool founded = false;
-
-
-
-			return founded;
-		}
-
-		public List<List<object>> ReadData(string sheetName = "test")
-		{
-			List<List<object>> info = new List<List<object>>();
-
-			if(sheetName == "prices")
-			{
-				csvPath = Path.Combine(assemblyPath, "shadec-prices.csv");
-				separator = ";";
-			}
-
-			try
-			{
-				using (TextFieldParser parser = new TextFieldParser(csvPath))
-				{
-					parser.TextFieldType = FieldType.Delimited;
-					parser.SetDelimiters(separator);
-
-					while (!parser.EndOfData)
-					{
-						List<object> row = new List<object>();
-
-						foreach (object field in parser.ReadFields())
-						{
-							row.Add(field);
-						}
-
-						info.Add(row);
-					}
-				}
-			}
-			catch(Exception ex)
-			{
-				Console.WriteLine($"File not found {csvPath} {ex.Message}");
-			}
-
-			return info;
 		}
 
 		private List<string> PrepareData(List<List<object>> data)
@@ -98,49 +51,110 @@ namespace Economic
 
 			return allLines;
 		}
-
-		public void WriteData(List<List<object>> data, string sheetName = "test")
+		
+		public bool isDataExist(List<object> data)
 		{
-			if (sheetName == "prices")
+			bool founded = false;
+
+
+
+			return founded;
+		}
+
+		public List<List<object>> ReadData(DataConfig.Lists sheetName = DataConfig.Lists.Main)
+		{
+			List<List<object>> info = new List<List<object>>();
+
+			if(sheetName == DataConfig.Lists.Prices)
+			{
+				csvPath = Path.Combine(assemblyPath, "shadec-prices.csv");
+				separator = ";";
+			}
+
+			try
+			{
+				using (TextFieldParser parser = new TextFieldParser(csvPath))
+				{
+					parser.TextFieldType = FieldType.Delimited;
+					parser.SetDelimiters(separator);
+
+					while (!parser.EndOfData)
+					{
+						List<object> row = new List<object>();
+
+						try
+						{
+							row.AddRange(
+								(parser.ReadFields() ?? 
+									throw new CustomException(ErrorCodes.Codes.DataReading))
+								.Cast<object>());
+						}
+						catch(NullReferenceException e)
+						{
+							throw new CustomException(ErrorCodes.Codes.DataReading);
+						}
+
+						info.Add(row);
+					}
+				}
+			}
+			catch(Exception ex)
+			{
+				throw new CustomException(ErrorCodes.Codes.DataFileNotFound);
+			}
+
+			return info;
+		}
+
+		public void WriteData(List<List<object>> data, 
+		                      DataConfig.Lists sheetName = DataConfig.Lists.Main)
+		{
+			if (sheetName == DataConfig.Lists.Prices)
 			{
 				csvPath = Path.Combine(assemblyPath, "shadec-prices.csv");
 				separator = ";";
 			}
 			List<string> allLines = PrepareData(data);
 
-			File.AppendAllLines(csvPath, allLines);
+			try
+			{
+				File.AppendAllLines(csvPath, allLines);
+			}
+			catch(FileNotFoundException e)
+			{
+				throw new CustomException(ErrorCodes.Codes.DataFileNotFound);
+			}
+			catch(Exception)
+			{
+				throw new CustomException(ErrorCodes.Codes.DataWriting);
+			}
 		}
 
-		public void UpdateData(List<object> dataNew, List<object> dataOld, string sheetName = "test")
+		public void UpdateData(List<object> dataNew, 
+		                       List<object> dataOld,
+		                       DataConfig.Lists sheetName = DataConfig.Lists.Main)
 		{
 			List<List<object>> data = ReadData(sheetName);
 
 			int oldDataIndex = data.FindIndex(el 
 				=> el[0].ToString() == dataOld[0].ToString());
 
-			try
+			if(oldDataIndex != -1)
 			{
-				if(oldDataIndex != -1)
-				{
-					data[oldDataIndex] = dataNew;
-					File.WriteAllLines(csvPath, PrepareData(data));
-				}
-				else
-				{
-					throw new Exception(oldDataIndex.ToString());
-				}				
+				data[oldDataIndex] = dataNew;
+				File.WriteAllLines(csvPath, PrepareData(data));
 			}
-			catch(Exception ex)
+			else
 			{
-				throw ex;
+				throw new CustomException(ErrorCodes.Codes.NotExistingData);
 			}
 		}
 
-		public void DeleteData(string sheetName = "test", int row = -1)
+		public void DeleteData(DataConfig.Lists sheetName = DataConfig.Lists.Main, int row = -1)
 		{
 			if(row == -1)
 			{
-				return; //Error - tryiong to delete not existing data
+				throw new CustomException(ErrorCodes.Codes.NotExistingData);
 			}
 
 			List<List<object>> data = ReadData(sheetName);

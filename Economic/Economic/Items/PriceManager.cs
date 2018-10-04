@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Economic.Data;
 
-namespace Economic
+namespace Economic.Items
 {
 	public class PriceManager
 	{
-		private const string pricesSheetName = "prices";
-
-		private IDataHandler dataWorker;
+		private readonly IDataHandler dataWorker;
 
 		public PriceManager()
 		{
@@ -21,9 +21,9 @@ namespace Economic
 		{
 			int price = 0;
 
-			if(itemClassName == null || itemClassName == string.Empty)
+			if(string.IsNullOrEmpty(itemClassName))
 			{
-				return 1;
+				throw new CustomException(ErrorCodes.Codes.NullData);
 			}
 
 			List<object> itemInfo = GetItemInfo(itemClassName);
@@ -34,7 +34,7 @@ namespace Economic
 			}
 			catch
 			{
-				throw new Exception("Get item price error");
+				throw new CustomException(ErrorCodes.Codes.NullData);
 			}
 
 			return price;
@@ -42,7 +42,7 @@ namespace Economic
 
 		public List<object> GetItemInfo(string itemClassName)
 		{
-			List<object> itemInfo = dataWorker.ReadData(pricesSheetName)
+			List<object> itemInfo = dataWorker.ReadData(DataConfig.Lists.Prices)
 				.Single(item => item.ElementAt(2).ToString() == itemClassName);
 
 			return itemInfo;
