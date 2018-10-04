@@ -85,7 +85,7 @@ namespace Economic.Player
 			newOne.ParseLoadoutToList(newItems);
 			
 			oldItems.ForEach(item => oldPrice += pm.GetItemPrice(item));
-			newItems.ForEach(item => oldPrice += pm.GetItemPrice(item));
+			newItems.ForEach(item => newPrice += pm.GetItemPrice(item));
 
 			cost = newPrice - oldPrice;
 

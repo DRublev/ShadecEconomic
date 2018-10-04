@@ -1,172 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1d8832d-a3c1-4bd8-9fc6-610d99c29f29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Economic/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Economic/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Economic/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Economic/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Economic/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Economic/Data/DataConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Economic/Player/PlayerHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Economic/Player/PlayersConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Economic/StringExtesion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Classes_short.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Classes_short.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Economic.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/CustomException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/CustomException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/Data/CsvDataHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/Data/CsvDataHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/Data/IDataHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/Data/IDataHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/Economic.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/Economic.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/Economic.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/Economic.csproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/Entry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/Entry.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/Items/PriceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/Items/PriceManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/Logger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/Logger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/MethodCaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/MethodCaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/Player/InventoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/Player/InventoryManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/Player/PlayerBalanceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/Player/PlayerBalanceManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/app.config" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/app.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Debug/Google.Apis.Auth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Debug/Google.Apis.Auth.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Debug/Google.Apis.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Debug/Google.Apis.Core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Debug/Google.Apis.Sheets.v4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Debug/Google.Apis.Sheets.v4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Debug/Google.Apis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Debug/Google.Apis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Debug/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Debug/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Release/Economic.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Release/Economic.dll.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Release/Google.Apis.Auth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Release/Google.Apis.Auth.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Release/Google.Apis.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Release/Google.Apis.Core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Release/Google.Apis.Sheets.v4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Release/Google.Apis.Sheets.v4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Release/Google.Apis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Release/Google.Apis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Release/Microsoft.Threading.Tasks.Extensions.Desktop.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Release/Microsoft.Threading.Tasks.Extensions.Desktop.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Release/Microsoft.Threading.Tasks.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Release/Microsoft.Threading.Tasks.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Release/Microsoft.Threading.Tasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Release/Microsoft.Threading.Tasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Release/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Release/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Release/Zlib.Portable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Release/Zlib.Portable.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/bin/Release/shadec-prices.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/bin/Release/shadec-prices.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/obj/Debug/Economic.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/obj/Debug/Economic.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/obj/Debug/Economic.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/obj/Debug/Economic.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/obj/Release/Economic.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/obj/Release/Economic.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/obj/Release/Economic.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/obj/Release/Economic.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Economic/shadec-prices.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Economic/shadec-prices.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.1.35.1/lib/net45/Google.Apis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.1.35.1/lib/net45/Google.Apis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.1.35.1/lib/netstandard1.3/Google.Apis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.1.35.1/lib/netstandard1.3/Google.Apis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.1.35.1/lib/netstandard2.0/Google.Apis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.1.35.1/lib/netstandard2.0/Google.Apis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.Auth.1.35.1/lib/net45/Google.Apis.Auth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.Auth.1.35.1/lib/net45/Google.Apis.Auth.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.Auth.1.35.1/lib/netstandard1.3/Google.Apis.Auth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.Auth.1.35.1/lib/netstandard1.3/Google.Apis.Auth.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.Auth.1.35.1/lib/netstandard2.0/Google.Apis.Auth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.Auth.1.35.1/lib/netstandard2.0/Google.Apis.Auth.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.Core.1.35.1/lib/net45/Google.Apis.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.Core.1.35.1/lib/net45/Google.Apis.Core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.Core.1.35.1/lib/netstandard1.3/Google.Apis.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.Core.1.35.1/lib/netstandard1.3/Google.Apis.Core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.Core.1.35.1/lib/netstandard2.0/Google.Apis.Core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.Core.1.35.1/lib/netstandard2.0/Google.Apis.Core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.Sheets.v4.1.35.1.1327/lib/net40/Google.Apis.Sheets.v4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.Sheets.v4.1.35.1.1327/lib/net40/Google.Apis.Sheets.v4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.Sheets.v4.1.35.1.1327/lib/net45/Google.Apis.Sheets.v4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.Sheets.v4.1.35.1.1327/lib/net45/Google.Apis.Sheets.v4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.Sheets.v4.1.35.1.1327/lib/netstandard1.0/Google.Apis.Sheets.v4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.Sheets.v4.1.35.1.1327/lib/netstandard1.0/Google.Apis.Sheets.v4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.Sheets.v4.1.35.1.1327/lib/netstandard1.3/Google.Apis.Sheets.v4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.Sheets.v4.1.35.1.1327/lib/netstandard1.3/Google.Apis.Sheets.v4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Google.Apis.Sheets.v4.1.35.1.1327/lib/netstandard2.0/Google.Apis.Sheets.v4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Google.Apis.Sheets.v4.1.35.1.1327/lib/netstandard2.0/Google.Apis.Sheets.v4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestAdapter.1.3.2/build/net45/MSTest.TestAdapter.props" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestAdapter.1.3.2/build/net45/MSTest.TestAdapter.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestAdapter.1.3.2/build/net45/MSTest.TestAdapter.targets" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestAdapter.1.3.2/build/net45/MSTest.TestAdapter.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestAdapter.1.3.2/build/netcoreapp1.0/MSTest.TestAdapter.props" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestAdapter.1.3.2/build/netcoreapp1.0/MSTest.TestAdapter.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestAdapter.1.3.2/build/uap10.0/MSTest.TestAdapter.props" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestAdapter.1.3.2/build/uap10.0/MSTest.TestAdapter.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestAdapter.1.3.2/build/uap10.0/MSTest.TestAdapter.targets" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestAdapter.1.3.2/build/uap10.0/MSTest.TestAdapter.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.XML" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/MSTest.TestFramework.1.3.2/lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Maca134.Arma.DllExport.0.0.2.7/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Maca134.Arma.DllExport.0.0.2.7/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Maca134.Arma.DllExport.0.0.2.7/tools/Maca134.Arma.DllExport.targets" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Maca134.Arma.DllExport.0.0.2.7/tools/Maca134.Arma.DllExport.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Maca134.Arma.DllExport.0.0.2.7/tools/install.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Maca134.Arma.DllExport.0.0.2.7/tools/install.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Maca134.Arma.DllExport.0.0.2.7/tools/uninstall.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Maca134.Arma.DllExport.0.0.2.7/tools/uninstall.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/net20/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/net20/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/net35/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/net35/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/net40/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/net40/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/net45/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/net45/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/netstandard1.0/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/netstandard1.0/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/netstandard1.3/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/netstandard1.3/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/portable-net40+sl5+win8+wpa81+wp8/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/portable-net40+sl5+win8+wpa81+wp8/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/tools/install.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/packages/Newtonsoft.Json.10.0.2/tools/install.ps1" afterDir="false" />
-    </list>
+    <list default="true" id="c1d8832d-a3c1-4bd8-9fc6-610d99c29f29" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,24 +20,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="40" />
+          <entry key="cs" value="41" />
           <entry key="csv" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="40" />
+          <entry key="C#" value="41" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3891" />
+          <entry key="cs" value="4096" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3891" />
+          <entry key="C#" value="4096" />
         </counts>
       </usages-collector>
     </session>
@@ -215,24 +50,43 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Economic/Player/InventoryManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
+            <state relative-caret-position="385">
               <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
               <folding>
-                <marker date="1538651121060" expanded="false" signature="6:136" ph="..." />
-                <marker date="1538651121060" expanded="true" signature="163:1763" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="196:1761" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="263:309" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="392:427" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="484:1007" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="525:560" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="652:939" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="842:883" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="952:983" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="1078:1575" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="1158:1226" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="1234:1540" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="1553:1571" ph="{...}" />
-                <marker date="1538651121060" expanded="true" signature="1628:1758" ph="{...}" />
+                <marker date="1538651338426" expanded="true" signature="6:158" ph="..." />
+                <marker date="1538651338426" expanded="true" signature="185:2010" ph="{...}" />
+                <marker date="1538651338426" expanded="true" signature="218:2008" ph="{...}" />
+                <marker date="1538651338426" expanded="true" signature="333:379" ph="{...}" />
+                <marker date="1538651338426" expanded="false" signature="436:959" ph="{...}" />
+                <marker date="1538651338426" expanded="true" signature="477:512" ph="{...}" />
+                <marker date="1538651338426" expanded="true" signature="604:891" ph="{...}" />
+                <marker date="1538651338426" expanded="true" signature="794:835" ph="{...}" />
+                <marker date="1538651338426" expanded="true" signature="904:935" ph="{...}" />
+                <marker date="1538651338426" expanded="false" signature="1030:1527" ph="{...}" />
+                <marker date="1538651338426" expanded="true" signature="1110:1178" ph="{...}" />
+                <marker date="1538651338426" expanded="true" signature="1186:1492" ph="{...}" />
+                <marker date="1538651338426" expanded="true" signature="1505:1523" ph="{...}" />
+                <marker date="1538651338426" expanded="true" signature="1580:2005" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Economic/Items/PriceManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <marker date="1538635773384" expanded="false" signature="6:155" ph="..." />
+                <marker date="1538635773384" expanded="true" signature="181:978" ph="{...}" />
+                <marker date="1538635773384" expanded="true" signature="210:976" ph="{...}" />
+                <marker date="1538635773384" expanded="true" signature="282:328" ph="{...}" />
+                <marker date="1538635773384" expanded="true" signature="377:747" ph="{...}" />
+                <marker date="1538635773384" expanded="true" signature="443:511" ph="{...}" />
+                <marker date="1538635773384" expanded="true" signature="575:648" ph="{...}" />
+                <marker date="1538635773384" expanded="true" signature="661:725" ph="{...}" />
+                <marker date="1538635773384" expanded="true" signature="804:973" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -337,6 +191,12 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Economic" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Economic" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Items" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Economic" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Economic" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Player" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
@@ -351,7 +211,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="xpath.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -376,12 +236,12 @@
       <option name="presentableId" value="Default" />
       <updated>1538622056986</updated>
       <workItem from="1538622063664" duration="413000" />
-      <workItem from="1538622557875" duration="14754000" />
+      <workItem from="1538622557875" duration="15629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15167000" />
+    <option name="totallyTimeSpent" value="16042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,24 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Economic/Items/PriceManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <marker date="1538635773384" expanded="false" signature="6:155" ph="..." />
-            <marker date="1538635773384" expanded="true" signature="181:978" ph="{...}" />
-            <marker date="1538635773384" expanded="true" signature="210:976" ph="{...}" />
-            <marker date="1538635773384" expanded="true" signature="282:328" ph="{...}" />
-            <marker date="1538635773384" expanded="true" signature="377:747" ph="{...}" />
-            <marker date="1538635773384" expanded="true" signature="443:511" ph="{...}" />
-            <marker date="1538635773384" expanded="true" signature="575:648" ph="{...}" />
-            <marker date="1538635773384" expanded="true" signature="661:725" ph="{...}" />
-            <marker date="1538635773384" expanded="true" signature="804:973" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Economic/Player/PlayerHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -673,26 +515,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Economic/Items/PriceManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <marker date="1538635773384" expanded="false" signature="6:155" ph="..." />
+            <marker date="1538635773384" expanded="true" signature="181:978" ph="{...}" />
+            <marker date="1538635773384" expanded="true" signature="210:976" ph="{...}" />
+            <marker date="1538635773384" expanded="true" signature="282:328" ph="{...}" />
+            <marker date="1538635773384" expanded="true" signature="377:747" ph="{...}" />
+            <marker date="1538635773384" expanded="true" signature="443:511" ph="{...}" />
+            <marker date="1538635773384" expanded="true" signature="575:648" ph="{...}" />
+            <marker date="1538635773384" expanded="true" signature="661:725" ph="{...}" />
+            <marker date="1538635773384" expanded="true" signature="804:973" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Economic/Player/InventoryManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
+        <state relative-caret-position="385">
           <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
           <folding>
-            <marker date="1538651121060" expanded="false" signature="6:136" ph="..." />
-            <marker date="1538651121060" expanded="true" signature="163:1763" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="196:1761" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="263:309" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="392:427" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="484:1007" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="525:560" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="652:939" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="842:883" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="952:983" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="1078:1575" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="1158:1226" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="1234:1540" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="1553:1571" ph="{...}" />
-            <marker date="1538651121060" expanded="true" signature="1628:1758" ph="{...}" />
+            <marker date="1538651338426" expanded="true" signature="6:158" ph="..." />
+            <marker date="1538651338426" expanded="true" signature="185:2010" ph="{...}" />
+            <marker date="1538651338426" expanded="true" signature="218:2008" ph="{...}" />
+            <marker date="1538651338426" expanded="true" signature="333:379" ph="{...}" />
+            <marker date="1538651338426" expanded="false" signature="436:959" ph="{...}" />
+            <marker date="1538651338426" expanded="true" signature="477:512" ph="{...}" />
+            <marker date="1538651338426" expanded="true" signature="604:891" ph="{...}" />
+            <marker date="1538651338426" expanded="true" signature="794:835" ph="{...}" />
+            <marker date="1538651338426" expanded="true" signature="904:935" ph="{...}" />
+            <marker date="1538651338426" expanded="false" signature="1030:1527" ph="{...}" />
+            <marker date="1538651338426" expanded="true" signature="1110:1178" ph="{...}" />
+            <marker date="1538651338426" expanded="true" signature="1186:1492" ph="{...}" />
+            <marker date="1538651338426" expanded="true" signature="1505:1523" ph="{...}" />
+            <marker date="1538651338426" expanded="true" signature="1580:2005" ph="{...}" />
           </folding>
         </state>
       </provider>
