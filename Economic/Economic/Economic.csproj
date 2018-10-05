@@ -89,16 +89,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Data\CsvDataHandler.cs" />
+=======
+>>>>>>> bf6d2996b6f7f056c175cd417a101043d2cbc435
     <Compile Include="CustomException.cs" />
+    <Compile Include="Data\CsvDataHandler.cs" />
+    <Compile Include="Data\DataConfig.cs" />
+    <Compile Include="Data\IDataHandler.cs" />
     <Compile Include="Entry.cs" />
+<<<<<<< HEAD
     <Compile Include="Player\InventoryManager.cs" />
     <Compile Include="Data\IDataHandler.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="MethodCaller.cs" />
     <Compile Include="Player\PlayerBalanceManager.cs" />
     <Compile Include="Items\PriceManager.cs" />
+=======
+    <Compile Include="Items\PriceManager.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="MethodCaller.cs" />
+    <Compile Include="Player\InventoryManager.cs" />
+    <Compile Include="Player\PlayerBalanceManager.cs" />
+    <Compile Include="Player\PlayerHandler.cs" />
+    <Compile Include="Player\PlayersConfig.cs" />
+>>>>>>> bf6d2996b6f7f056c175cd417a101043d2cbc435
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringExtesion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Economic.Data;
+using Economic.Items;
 
-namespace Economic
+namespace Economic.Player
 {
 	public class InventoryManager
 	{
 		private IDataHandler dataWorker;
+		private PriceManager pm = new PriceManager();
 
 		public InventoryManager()
 		{
 			dataWorker = new CsvDataHandler();
 		}
-
+		
 		public string GetPlayerSavedLoadout(string steamId)
 		{
 			if(string.IsNullOrEmpty(steamId))
@@ -27,7 +30,7 @@ namespace Economic
 
 			try
 			{
-				playerInfo = dataWorker.ReadData("test")
+				playerInfo = dataWorker.ReadData(DataConfig.Lists.Main)
 					.Single(item => item.First().ToString() == steamId);
 
 				if (string.IsNullOrEmpty(playerInfo.ElementAt(3).ToString()))
@@ -50,17 +53,17 @@ namespace Economic
 			if (string.IsNullOrEmpty(steamId) || 
 				string.IsNullOrEmpty(loadout))
 			{
-				return;
+				throw new CustomException(ErrorCodes.Codes.NullData);
 			}
 
 			try
 			{
-				List<object> oldPlayerData = dataWorker.ReadData("test")
+				List<object> oldPlayerData = dataWorker.ReadData(DataConfig.Lists.Main)
 					.Single(el => el.ElementAt(0).ToString() == steamId);
 
 				List<object> newPlayerData = oldPlayerData;
 				newPlayerData[3] = loadout;
-				dataWorker.UpdateData(newPlayerData, oldPlayerData, "test");
+				dataWorker.UpdateData(newPlayerData, oldPlayerData, DataConfig.Lists.Main);
 			}
 			catch
 			{
@@ -72,7 +75,19 @@ namespace Economic
 		{
 			int cost = 0;
 
+			int oldPrice = 0;
+			int newPrice = 0;
 
+			List<string> oldItems = new List<string>();
+			List<string> newItems = new List<string>();
+			
+			old.ParseLoadoutToList(oldItems);
+			newOne.ParseLoadoutToList(newItems);
+			
+			oldItems.ForEach(item => oldPrice += pm.GetItemPrice(item));
+			newItems.ForEach(item => newPrice += pm.GetItemPrice(item));
+
+			cost = newPrice - oldPrice;
 
 			return cost;
 		}

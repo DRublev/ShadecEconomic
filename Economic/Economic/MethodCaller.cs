@@ -37,13 +37,8 @@ namespace Economic
 			FindNCashAllMethods();
 		}
 
-		private List<Type> typesInExecutableAssembly
-		{
-			get
-			{
-				return Assembly.GetExecutingAssembly().GetTypes().ToList();
-			}
-		}
+		private List<Type> typesInExecutableAssembly => Assembly.GetExecutingAssembly().GetTypes().ToList();
+
 		private List<MethodInfo> GetTypeMethods(Type type)
 		{
 			return type.GetMethods().ToList();
@@ -84,15 +79,14 @@ namespace Economic
 				}
 				catch
 				{
-					return availableMethods.Count;
+					throw new CustomException(ErrorCodes.Codes.MethodCall);
 				}
 
 				return methodInfo.Invoke(callerInstance, arguments);
 			}
 			else
 			{
-				// Method with such name not found
-				return 2;
+				throw new CustomException(ErrorCodes.Codes.MethodNotFound);
 			}
 		}
 
@@ -107,8 +101,8 @@ namespace Economic
 
 			string methodName = input.Substring(closeBracePos + 1);
 
-			char[] arguments = new char[input.Length - methodName.Length];
-			input.CopyTo(1, arguments, 0, closeBracePos - 1);
+			char[] arguments = { };
+			input.CopyTo(1, arguments, closeBracePos - 1, input.Length - methodName.Length - 1);
 
 			List<object> args= new List<object>();
 
