@@ -68,7 +68,7 @@ namespace Economic.Data
 			if(sheetName == DataConfig.Lists.Prices)
 			{
 				csvPath = Path.Combine(assemblyPath, "shadec-prices.csv");
-				separator = ";";
+				separator = ",";
 			}
 
 			try
@@ -85,11 +85,9 @@ namespace Economic.Data
 						try
 						{
 							row.AddRange(
-								(parser.ReadFields() ?? 
-									throw new CustomException(ErrorCodes.Codes.DataReading))
-								.Cast<object>());
+								parser.ReadFields().Cast<object>());
 						}
-						catch(NullReferenceException e)
+						catch(NullReferenceException)
 						{
 							throw new CustomException(ErrorCodes.Codes.DataReading);
 						}
@@ -98,7 +96,7 @@ namespace Economic.Data
 					}
 				}
 			}
-			catch(Exception ex)
+			catch(Exception)
 			{
 				throw new CustomException(ErrorCodes.Codes.DataFileNotFound);
 			}

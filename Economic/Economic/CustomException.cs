@@ -26,7 +26,7 @@ namespace Economic
 
 		public CustomException(ErrorCodes.Codes code) : base(code.ToString())
 		{
-			Logger.Log($"{code.ToString()} {code.GetDescription()}", this.Source);
+			Logger.Log($"{code.ToString()} {code.GetDescription()}", this.Source.ToString());
 		}
 
 		public CustomException(ErrorCodes.Codes code, Exception inner) : base(code.ToString(), inner)
@@ -45,37 +45,37 @@ namespace Economic
 			[Description("Everything is alright")]
 			Ok = 100,
 			
-			[Description("Everything is alright")]
+			[Description("Can't parse method-calling string")]
 			MethodCallParse = 101,
 			
-			[Description("Everything is alright")]
+			[Description("Method not found")]
 			MethodNotFound = 102,
 			
-			[Description("Everything is alright")]
+			[Description("Method with this arguments can't be called")]
 			WrongArgsList = 103,
 			
-			[Description("Everything is alright")]
+			[Description("Method calling error")]
 			MethodCall = 104,
 			
-			[Description("Everything is alright")]
+			[Description("Error while cashing method")]
 			MethodCash = 105,
 			
-			[Description("Everything is alright")]
+			[Description("Alarm! Somebody has stolen our data!")]
 			DataFileNotFound = 201,
 			
-			[Description("Everything is alright")]
+			[Description("Data reading error")]
 			DataReading = 202,
 			
-			[Description("Everything is alright")]
+			[Description("Data writing error")]
 			DataWriting = 203,
 			
-			[Description("Everything is alright")]
+			[Description("Ur trying to access not existing data")]
 			NotExistingData = 204,
 			
-			[Description("Everything is alright")]
+			[Description("Give me any steam id, soab!")]
 			NullSteamId = 300,
 			
-			[Description("Everything is alright")]
+			[Description("Wrong steam id")]
 			WrongSteamId = 301
 		}
 		

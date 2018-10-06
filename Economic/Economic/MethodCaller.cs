@@ -101,8 +101,8 @@ namespace Economic
 
 			string methodName = input.Substring(closeBracePos + 1);
 
-			char[] arguments = { };
-			input.CopyTo(1, arguments, closeBracePos - 1, input.Length - methodName.Length - 1);
+			string arguments = string.Empty;
+			arguments = input.Substring(1, input.Length - methodName.Length - 1);
 
 			List<object> args= new List<object>();
 

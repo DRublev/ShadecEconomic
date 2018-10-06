@@ -69,10 +69,10 @@ namespace Economic
 
 				cash = Convert.ToInt32(playerInfo.ElementAt(2));
 			}
-			catch
+			catch(Exception ex)
 			{
-				throw new CustomException(
-					ErrorCodes.Codes.NotExistingData);
+				throw ex;// new CustomException(
+					//ErrorCodes.Codes.NotExistingData);
 			}
 
 			return cash;

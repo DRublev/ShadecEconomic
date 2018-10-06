@@ -44,10 +44,10 @@ namespace Economic
 		public static string[] SplitToItems(string toSplit)
 		{
 			string[] splitted = { };
-			char[] prepared = { };
-			
-			toSplit.CopyTo(1, prepared, toSplit.Length - 1, toSplit.Length - 2);
-			splitted = prepared.ToString().Split(',');
+			string prepared = string.Empty;
+
+			prepared = toSplit.Substring(1, toSplit.Length - 2);
+			splitted = prepared.Split(',');
 			
 			return splitted;
 		}

@@ -11,7 +11,7 @@ namespace Economic.Player
 	{
 		private IDataHandler dataHandler = new CsvDataHandler();
 		
-		private bool isNewPlayer(string steamId)
+		public bool isNewPlayer(string steamId)
 		{
 			bool isNew = false;
 
@@ -19,7 +19,7 @@ namespace Economic.Player
 			
 			allData.ForEach(data =>
 			{
-				if(data.ElementAt(0).ToString() == steamId)
+				if(data.ElementAt(0).ToString() != steamId)
 				{
 					isNew = true;
 				}
