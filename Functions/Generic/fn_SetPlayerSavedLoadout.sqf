@@ -14,7 +14,7 @@
 
 params["_uid", "_gear"];
 
-//"Economic" callExtension format["[%1,%2]SetPlayerSavedLoadout", _uid, _gear];
+"Economic" callExtension format["[%1,%2]SetPlayerSavedLoadout", _uid, _gear];
 
 //Return
 true

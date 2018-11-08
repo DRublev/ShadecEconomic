@@ -13,8 +13,9 @@
 
 params["_item"];
 
-//_price = "Economic" callExtension format["[%1]GetItemPrice", _item];
-_price = 123; //For testing purposes. TODO: Remove and write normal call to dll.
+_price = "Economic" callExtension format["[%1]GetItemPrice", _item];
+missionNamespace setVariable [_item + "_price", _price, true];
+publicVariable (_item + "_price");
 
 //Return
 _price

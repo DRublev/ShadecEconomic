@@ -8,12 +8,16 @@
 	0: STRING - player SteamID
 
 	Returns:
-	ARRAY - player saved loadout in getUnitLoadout/setUnitLoadout format
+	STRING - player saved loadout in getUnitLoadout/setUnitLoadout format
 */
 
 params["_uid"];
 
 _gear = "Economic" callExtension format["[%1]GetPlayerSavedLoadout", _uid];
+if (_gear isEqualTo "2") then
+{
+    _gear = str (getUnitLoadout "B_Survivor_F");
+};
 
 //Return
 _gear

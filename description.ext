@@ -55,3 +55,21 @@ class CfgFunctions
         };
     };
 };
+
+//Remote execution config
+class CfgRemoteExec
+{
+        class Functions
+        {
+                mode = 3;  //For debug. TODO: Change it later
+                jip = 0;   //no functions can use jip
+
+                class Shadec_fnc_GetPlayerCash {allowedTargets = 2;};
+                class Shadec_fnc_SetPlayerCash {allowedTargets = 2;};
+                class Shadec_fnc_GetPlayerSavedLoadout {allowedTargets = 2;};
+                class Shadec_fnc_SetPlayerSavedLoadout {allowedTargets = 2;};
+                class Shadec_fnc_GetItemPrice {allowedTargets = 2;};
+                class Shadec_fnc_NewGearPrice {allowedTargets = 2;};
+                class Shadec_fnc_SaveString {allowedTargets = 2;};
+        };
+};
