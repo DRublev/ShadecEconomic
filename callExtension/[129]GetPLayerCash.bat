@@ -1,0 +1,1 @@
+start callExtension_x64 "Economic" callExtension "[129]GetPLayerCash"
