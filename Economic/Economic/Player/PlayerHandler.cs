@@ -13,17 +13,35 @@ namespace Economic.Player
 		
 		public bool isNewPlayer(string steamId)
 		{
-			bool isNew = false;
+			bool isNew = true;
 
 			List<List<object>> allData = dataHandler.ReadData(DataConfig.Lists.Main);
 			
-			allData.ForEach(data =>
+			try
 			{
-				if(data.ElementAt(0).ToString() != steamId)
+				allData.ForEach(data =>
 				{
-					isNew = true;
-				}
-			});
+					/*if(string.IsNullOrEmpty(data.ElementAt(0).ToString()))
+					{
+						throw new CustomException(ErrorCodes.Codes.NullSteamId);
+					}*/
+
+					if (data.ElementAt(0).ToString() != steamId && !isNew)
+					{
+						Console.WriteLine($"{data.ElementAt(0).ToString()} is new player");
+						isNew = true;
+					}
+					else if (data.ElementAt(0).ToString() == steamId && isNew)
+					{
+						Console.WriteLine($"{data.ElementAt(0).ToString()} is old player");
+						isNew = false;
+					}
+				});
+			}
+			catch
+			{
+				throw new CustomException(ErrorCodes.Codes.DataReading);
+			}
 			
 			return isNew;
 		}

@@ -9,13 +9,13 @@ C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTes
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\credentials.json
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\EconomicTest.dll
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\EconomicTest.pdb
-C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\Economic.dll
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\Economic.pdb
-C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\Economic.dll.config
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\obj\Release\EconomicTest.csproj.CopyComplete
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\obj\Release\EconomicTest.dll
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\obj\Release\EconomicTest.pdb
+C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\Economic_x64.dll
+C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\Economic_x64.pdb
+C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\EconomicTest\bin\Release\Economic_x64.dll.config

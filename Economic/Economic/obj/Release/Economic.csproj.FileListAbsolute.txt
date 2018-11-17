@@ -1,7 +1,4 @@
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Release\credentials.json
-C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Release\Economic.dll.config
-C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Release\Economic.dll
-C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Release\Economic.pdb
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Release\Google.Apis.Auth.dll
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Release\Google.Apis.Auth.PlatformServices.dll
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Release\Google.Apis.Core.dll
@@ -28,6 +25,9 @@ C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bi
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Release\Zlib.Portable.xml
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Release\Economic.csproj.CoreCompileInputs.cache
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Release\Economic.csproj.CopyComplete
-C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Release\Economic.dll
-C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Release\Economic.pdb
 C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Release\Economic.csprojAssemblyReference.cache
+C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Release\Economic_x64.dll.config
+C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Release\Economic_x64.dll
+C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\bin\Release\Economic_x64.pdb
+C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Release\Economic_x64.dll
+C:\Users\aring\Desktop\Job\Projects\Personal\ShadecEconomic\Economic\Economic\obj\Release\Economic_x64.pdb

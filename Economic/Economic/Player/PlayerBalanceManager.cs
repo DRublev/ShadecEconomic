@@ -52,7 +52,7 @@ namespace Economic
 
 		public int GetPlayerCash(string steamId = null)
 		{
-			if (string.IsNullOrEmpty(steamId))
+			if(string.IsNullOrEmpty(steamId))
 			{
 				throw new CustomException(
 					ErrorCodes.Codes.NullSteamId);
@@ -71,8 +71,7 @@ namespace Economic
 			}
 			catch(Exception ex)
 			{
-				throw ex;// new CustomException(
-					//ErrorCodes.Codes.NotExistingData);
+				throw new CustomException(ErrorCodes.Codes.UnknownError);
 			}
 
 			return cash;

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
@@ -31,7 +32,9 @@ namespace Economic
 				return Path.Combine(dir, filename);
 			}
 		}
-		
+
+		protected Process cmd;
+
 		public Logger()
 		{
 
@@ -51,6 +54,8 @@ namespace Economic
 		public static void Log(string message, object sender)
 		{
 			string logInfo = $"{CurrentTime()} : {message} | {sender}";
+
+			Console.WriteLine(logInfo);
 
 			Thread thread = new Thread(() =>
 			{

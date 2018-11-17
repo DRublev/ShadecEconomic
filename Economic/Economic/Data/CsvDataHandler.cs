@@ -4,14 +4,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Economic.Data
 {
 	public class CsvDataHandler : IDataHandler
 	{
-		private string assemblyPath = string.Empty;
+		private readonly string assemblyPath = string.Empty;
 		private string csvPath = string.Empty;
 		private string separator = "|";
 
@@ -51,7 +49,7 @@ namespace Economic.Data
 
 			return allLines;
 		}
-		
+
 		public bool isDataExist(List<object> data)
 		{
 			bool founded = false;
@@ -65,7 +63,7 @@ namespace Economic.Data
 		{
 			List<List<object>> info = new List<List<object>>();
 
-			if(sheetName == DataConfig.Lists.Prices)
+			if (sheetName == DataConfig.Lists.Prices)
 			{
 				csvPath = Path.Combine(assemblyPath, "shadec-prices.csv");
 				separator = ",";
@@ -75,19 +73,20 @@ namespace Economic.Data
 			{
 				using (TextFieldParser parser = new TextFieldParser(csvPath))
 				{
+
 					parser.TextFieldType = FieldType.Delimited;
 					parser.SetDelimiters(separator);
-
 					while (!parser.EndOfData)
 					{
 						List<object> row = new List<object>();
-
 						try
 						{
-							row.AddRange(
-								parser.ReadFields().Cast<object>());
+							foreach(string field in parser.ReadFields())
+							{
+								row.Add(field);
+							}
 						}
-						catch(NullReferenceException)
+						catch (Exception)
 						{
 							throw new CustomException(ErrorCodes.Codes.DataReading);
 						}
@@ -96,16 +95,16 @@ namespace Economic.Data
 					}
 				}
 			}
-			catch(Exception)
+			catch (Exception)
 			{
-				throw new CustomException(ErrorCodes.Codes.DataFileNotFound);
+				throw new CustomException(ErrorCodes.Codes.DataReading);
 			}
 
 			return info;
 		}
 
-		public void WriteData(List<List<object>> data, 
-		                      DataConfig.Lists sheetName = DataConfig.Lists.Main)
+		public void WriteData(List<List<object>> data,
+							  DataConfig.Lists sheetName = DataConfig.Lists.Main)
 		{
 			if (sheetName == DataConfig.Lists.Prices)
 			{
@@ -118,26 +117,26 @@ namespace Economic.Data
 			{
 				File.AppendAllLines(csvPath, allLines);
 			}
-			catch(FileNotFoundException e)
+			catch (FileNotFoundException e)
 			{
 				throw new CustomException(ErrorCodes.Codes.DataFileNotFound);
 			}
-			catch(Exception)
+			catch (Exception)
 			{
 				throw new CustomException(ErrorCodes.Codes.DataWriting);
 			}
 		}
 
-		public void UpdateData(List<object> dataNew, 
-		                       List<object> dataOld,
-		                       DataConfig.Lists sheetName = DataConfig.Lists.Main)
+		public void UpdateData(List<object> dataNew,
+							   List<object> dataOld,
+							   DataConfig.Lists sheetName = DataConfig.Lists.Main)
 		{
 			List<List<object>> data = ReadData(sheetName);
 
-			int oldDataIndex = data.FindIndex(el 
+			int oldDataIndex = data.FindIndex(el
 				=> el[0].ToString() == dataOld[0].ToString());
 
-			if(oldDataIndex != -1)
+			if (oldDataIndex != -1)
 			{
 				data[oldDataIndex] = dataNew;
 				File.WriteAllLines(csvPath, PrepareData(data));
@@ -150,7 +149,7 @@ namespace Economic.Data
 
 		public void DeleteData(DataConfig.Lists sheetName = DataConfig.Lists.Main, int row = -1)
 		{
-			if(row == -1)
+			if (row == -1)
 			{
 				throw new CustomException(ErrorCodes.Codes.NotExistingData);
 			}

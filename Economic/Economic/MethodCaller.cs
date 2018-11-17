@@ -121,6 +121,5 @@ namespace Economic
 
 			return (args.ToArray(), methodName);
 		}
-
 	}
 }

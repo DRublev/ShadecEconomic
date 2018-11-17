@@ -35,14 +35,14 @@ namespace Economic.Player
 
 				if (string.IsNullOrEmpty(playerInfo.ElementAt(3).ToString()))
 				{
-					return "Empty loadout";
+					throw new CustomException(ErrorCodes.Codes.GetLoadoutFailed);
 				}
 
 				loadout = playerInfo.ElementAt(3).ToString();
 			}
 			catch
 			{
-				return string.Empty;
+				throw new CustomException(ErrorCodes.Codes.DataReading);
 			}
 
 			return loadout;
@@ -71,12 +71,17 @@ namespace Economic.Player
 			}
 		}
 
-		public int NewGearCost(string old, string newOne)
+		public int NewGearCost(string old, string newOne, string steamId)
 		{
 			int cost = 0;
 
 			int oldPrice = 0;
 			int newPrice = 0;
+
+			if (string.IsNullOrEmpty(steamId))
+			{
+				throw new CustomException(ErrorCodes.Codes.NullSteamId);
+			}
 
 			List<string> oldItems = new List<string>();
 			List<string> newItems = new List<string>();
@@ -84,8 +89,8 @@ namespace Economic.Player
 			old.ParseLoadoutToList(oldItems);
 			newOne.ParseLoadoutToList(newItems);
 			
-			oldItems.ForEach(item => oldPrice += pm.GetItemPrice(item));
-			newItems.ForEach(item => newPrice += pm.GetItemPrice(item));
+			oldItems.ForEach(item => oldPrice += pm.GetItemPrice(item, steamId));
+			newItems.ForEach(item => newPrice += pm.GetItemPrice(item, steamId));
 
 			cost = newPrice - oldPrice;
 

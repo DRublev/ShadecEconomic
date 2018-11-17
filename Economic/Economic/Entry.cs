@@ -14,9 +14,23 @@ namespace Economic
 		public static string Invoke(string input, int size)
 		{
 			(object[] args, string methodName) parameters = MethodCaller.Instance.ParseInput(input);
-			object result = MethodCaller.Instance.Call(parameters.methodName, parameters.args);
+			
+			
+			try
+			{
+				object result = MethodCaller.Instance.Call(parameters.methodName, parameters.args);
 
-			return $"{result.ToString()}";
+				return $"{result.ToString()}";
+			}
+			catch(CustomException ex)
+			{
+				Console.WriteLine((int) ex.Code);
+				return $"{((int)ex.Code).ToString()}";
+			}
+			catch(Exception ex)
+			{
+				return "Unknown exception";
+			}
 		}
 	}
 }

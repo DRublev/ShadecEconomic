@@ -1,0 +1,1243 @@
+﻿GPS,100,ItemGPS
+30Rnd_556x45_Stanag,70,30Rnd_556x45_Stanag
+CPW,0, hgun_PDW2000_F
+F2000,3800,arifle_Mk20_plain_F
+F2000 Camo,3850,arifle_Mk20_F
+F2000 Tactical,3750,arifle_Mk20C_F
+F2000 Tactical Camo,3750,arifle_Mk20C_F
+F2000 EGLM,4900,arifle_Mk20_GL_F
+F2000 EGLM Camo,4900,arifle_Mk20_GL_F
+GM 6 LYNX,15000,srifle_GM6_F
+GM 6 LYNX Camo,15050,srifle_GM6_camo_F
+GM 6 LYNX Woodland,15050,srifle_GM6_ghex_F
+TAR-20,1800, arifle_TRG20_F
+CTAR-21,1750,arifle_TRG21_F
+GTAR-21,2600,arifle_TRG21_GL_F
+KH2002,1600,arifle_Katiba_F
+KH2002C,1500,arifle_Katiba_C_F
+KH2002 KGL,2700,KGL arifle_Katiba_GL_F
+M200 Intervention,14000,srifle_LRR_F
+M200 Intervention Camo,14050,srifle_LRR_camo_F
+M200 Intervention Woodland,14050,srifle_LRR_tna_F
+Mk14 Mod 1 EBR,4400,srifle_EBR_F
+NEGEV NG7,5700,LMG_Zafir_F
+Scorpion Evo 3 A1,1000,SMG_02_F
+Vector SMG,1400,SMG_01_F
+магазин 30 патронов 45кал ,30,30Rnd_45ACP_Mag_SMG_01
+"магазин 30 патронов 45кал, зел трасер",30,30Rnd_45ACP_Mag_SMG_01_tracer_green
+HK121 Tan,16000,MMG_01_tan_F
+HK121 Hex,16050,MMG_01_hex_F
+M14 Olive,3000,srifle_DMR_06_olive_F
+M14 Camo,3050,srifle_DMR_06_camo_F
+Noreen 'Bad News' Black,6000,srifle_DMR_02_F
+Noreen 'Bad News' Black Camo,6050,srifle_DMR_02_camo_F
+Noreen 'Bad News' Black Tan,6050,srifle_DMR_02_sniper_F
+SIG 556 Black,4500,srifle_DMR_03_F
+SIG 556 khaki,4530,srifle_DMR_03_khaki_F
+SIG 556 Tan,4530,srifle_DMR_03_tan_F
+SIG 556 woodland,4550,srifle_DMR_03_woodland_F
+SIG 556 Camo,4550,srifle_DMR_03_multicam_F
+AK12 7.62,1400,arifle_AK12_F
+AK12 7.62 GL,2500,arifle_AK12_GL_F
+HK417A5 20 Black,4500,srifle_DMR_07_blk_F
+HK417A5 20 Woodland,4550,arifle_SPAR_03_khk_F
+HK417A5 20 Sand,4550,arifle_SPAR_03_snd_F
+MP5K,0,Weapon_SMG_05_F
+QBU 88 Black,400,srifle_DMR_07_blk_F
+QBU 88 Woodland,450,srifle_DMR_07_ghex_F
+QBU 88 Desert,450,srifle_DMR_07_hex_F
+QBZ 95 1 Black,600,arifle_CTAR_blk_F
+QBZ 95 1 Woodland,650,arifle_CTAR_ghex_F
+QBZ 95 1 Desert,650,arifle_CTAR_hex_F
+QBZ 95 1 GL Black,1400,arifle_CTAR_GL_blk_F
+QBZ 95 1 GL Woodland,1450,arifle_CTAR_GL_ghex_F
+QBZ 95 1 GL Desert,1450,arifle_CTAR_GL_hex_F
+QBZ 95 1 LSW Black,700,arifle_CTARS_blk_F
+QBZ 95 1 LSW Woodland,750,arifle_CTARS_ghex_F
+QBZ 95 1 LSW Desert,750,arifle_CTARS_hex_F
+AA12 Gauge,18000,AA12
+AN 94 5.45x39mm,1900,arifle_AN94_f
+AN 94 MTK-83 5.45x39mm,1940,AN94_MTK83
+APS 5.66x150mm/120mm,1200,KA_APS
+ASh-12 12.7x55mm,4200,KA_ASh_12
+ASh-12 GP30 12.7x55mm,5200,KA_ASh_12_GP30
+Barret Model 98 Bravo .338 Lapua,5500,KA_M98B
+Benneli M1014,2000,KA_M1014
+Beretta Mx4 Storm 9x19 SMG ,1150,KA_Mx4
+Beretta Mx4 Storm 9x19 SMG  Black,1150,KA_Mx4_Black
+Colt RO991 9x19mm SMG,1000,KA_RO991
+Crossbow Black,0,KA_crossbow_black
+Crossbow Wood,0,KA_crossbow_wood
+DSR 50 12.7x99mm BMG,12000,KA_DSR50
+FAMAS F1 5.56x45mm,6500,KA_FAMAS_F1
+FAMAS F1 M203 5.56x45mm,7500,KA_FAMAS_F1_M203
+Franchi SPAS 12,1500,KA_SPAS12
+Galil ACE 22 5.56x45mm,1800,KA_Galil_ACE22
+HK G11 K2 4.73x33mm Caseless,12000,KA_G11
+HK UMP .40 S&W,400,KA_UMP40
+HK UMP .45ACP,1400,KA_UMP45
+HK UMP .45ACP +P Bullet,1600,KA_UMP45_P
+HK UMP 9x19mm,300,KA_UMP9
+Kel Tec KSG 12 Gauge Black,700,KA_KSG_Black
+Kel Tec KSG 12 Gauge Green,750,KA_KSG_Green
+MagPul PDR 5.56x45mm,600,KA_PDR
+McMillan CS5 7.62x51mm,5500,KA_CS5
+MRC BLK 4.92x34mm Caseless,17000,MRC_Black
+MRC GRN 4.92x34mm Caseless,17000,MRC_Green
+MRC GL BLK 4.92x34mm Caseless,19000,MRC_GL_Black
+MRC GL GRN 4.92x34mm Caseless,19000,MRC_GL_Green
+NTW 20 20x110mm,15000,KA_NTW20
+PP19 01 Vityaz 9x19mm,800,KA_Vityaz
+PP19 BIZON 2 9x18mm,600,KA_PP19
+PP19 BIZON 2 MTK83 9x18mm,640,KA_PP19_MTK83
+SCAR H Black 7.62x51mm,4000,KA_SCAR_H_Black_Hand
+SCAR H Tan 7.62x51mm,4000,KA_SCAR_H_Tan_Hand
+SCAR H Black AFG 7.62x51mm,4035,KA_SCAR_H_Black_AFG
+SCAR H Tan AFG 7.62x51mm,4850,KA_SCAR_H_Tan_AFG
+SCAR H Black EGLM 7.62x51mm,4900,KA_SCAR_H_Black_EGLM
+SCAR H Tan EGLM 7.62x51mm,4950,KA_SCAR_H_Tan_EGLM
+SCAR H Black Grip 7.62x51mm,4060,KA_SCAR_H_Black_Grip
+SCAR H Tan Grip 7.62x51mm,4110,KA_SCAR_H_Tan_Grip
+SCAR L Black 5.56x45mm,3500,KA_SCAR_L_Black_Hand
+SCAR L Tan 5.56x45mm,3550,KA_SCAR_L_Tan_Hand
+SCAR L Black 60Rnd Mag 5.56x45mm,3600,KA_SCAR_L_Black_60RndMag
+SCAR L Tan 60Rnd Mag 5.56x45mm,3650,KA_SCAR_L_Tan_60RndMag
+SCAR L Black AFG 5.56x45mm,3635,KA_SCAR_L_Black_AFG
+SCAR L Tan AFG 5.56x45mm,3855,KA_SCAR_L_Tan_AFG
+SCAR L Black EGLM 5.56x45mm,4400,KA_SCAR_L_Black_EGLM
+SCAR L Tan EGLM 5.56x45mm,4450,KA_SCAR_L_Tan_EGLM
+SCAR L Black Grip 5.56x45mm,3560,KA_SCAR_L_Black_Grip
+SCAR L Tan Grip 5.56x45mm ,3610,KA_SCAR_L_Tan_Grip
+SIG SG 550 5.56x45mm,1700,KA_SG_550
+SIG SG 552 5.56x45mm,1600,KA_SG_552
+SIG SG 552 5.56x45mm Black,1650,KA_SG_552_Black
+M4A1 Modular 5.56x45mm,900,KA_M4A1_F
+M4A1 Modular M203 5.56x45mm,1900,KA_M4A1_M203_F
+SKS 7.62x39,0,arifle_KA_SKS_F
+Vychlop VSSK 12.7x55mm,16000,KA_VSSK
+Walther WA2000 .300 Win,9500,KA_WA2000
+Walther WA2000 .300 Win 47,10000,KA_WA2000_47
+XM-25 CDTE,35000,ATA_XM25_F
+XM-25 CDTE HE,35000,ATA_XM29_F
+AS50,13000,CUP_srifle_AS50
+CZ 550,500,CUP_srifle_CZ550
+CZ 550 Планка Пикатини,510,CUP_srifle_CZ550_rail
+CZ 805 BREN A1,2000,CUP_arifle_CZ805_A1
+CZ 805 BREN A1 G1,2900,CUP_arifle_CZ805_GL
+CZ 805 BREN A2,2300,CUP_arifle_CZ805_A2
+CZ 805 BREN B1,3000,CUP_arifle_CZ805_B
+CZ 805 BREN B1 G1,3900,CUP_arifle_CZ805_B_GL
+FN FAL,2700,CUP_arifle_FNFAL
+FN FAL Рельса,2710,CUP_arifle_FNFAL_railed
+FN FAL 50.61,2600,CUP_arifle_FNFAL5061
+FN FAL 50.62,2550,CUP_arifle_FNFAL5062
+FN FAL OSW,2500,CUP_arifle_FNFAL_OSW
+G22 Desert,8000,CUP_srifle_G22_des
+G22 Woodland,8000,CUP_srifle_G22_wdl
+M14  DNR,4000,CUP_srifle_M14_DMR
+M14,3000,CUP_srifle_M14
+M16A2,600,CUP_arifle_M16A2
+M16A2 M203 ,1600,CUP_arifle_M16A2_GL
+M24 Woodland,4000,CUP_srifle_M24_wdl
+M24 Desert,4050,CUP_srifle_M24_des
+ M60E4,6000,CUP_lmg_M60E4
+MG 36 Black,3500,CUP_arifle_MG36
+MG 36 Camo,3550,CUP_arifle_MG36_camo
+M79,1000,CUP_glaunch_M79
+Mk13,5400,CUP_glaunch_Mk13
+SA-58 RIS1  Black,1000,CUP_arifle_Sa58RIS1
+SA-58 RIS1  Desert,1050,CUP_arifle_Sa58RIS1_des
+SA-58 RIS2,1050,CUP_arifle_Sa58RIS2
+SA-58 RIS2,1100,CUP_arifle_Sa58RIS2_camo
+SA-58 RIS2 GL,1900,CUP_arifle_Sa58RIS2_gl
+SMLE Mk.III,0,CUP_srifle_LeeEnfield
+SMLE Mk.III Планка Пикатини,10,CUP_srifle_LeeEnfield_rail
+UK-59,5000,CUP_lmg_UK59
+XM8 Compact,2300,CUP_arifle_XM8_Compact
+XM8 Cоmpact Рельса,2310,CUP_arifle_XM8_Compact_Rail
+XM8 CQC,2200,CUP_arifle_XM8_Carbine_FG
+XM8 SAW,2800,CUP_arifle_xm8_SAW
+XM8 Карабин,2500,CUP_arifle_XM8_Carbine
+XM8 Карабин Рельса,2510,CUP_arifle_XM8_Railed
+XM8 Карабин + M203,3400,CUP_arifle_XM8_Carbine_GL
+XM8 Снайперская,4000,CUP_arifle_xm8_sharpshooter
+AK-107,1400,CUP_arifle_AK107
+AK-107 ГП,2200,CUP_arifle_AK107_GL
+КСВК,20000,CUP_srifle_ksvk
+Сайга 12К,500,CUP_sgun_Saiga12K
+АК-104,1000,rhs_weap_ak104
+ АК-105,800,rhs_weap_ak105
+PP-2000,500,rhs_weapon_pp2000
+Т-5000,7000,rhs_weap_t5000
+АК-103,1100,rhs_weap_ak103
+АК-103-1,1100,rhs_weap_ak103_1
+АК-103-1 Б-13,1220,rhs_weap_ak103_1_npz
+АК-103-2,1100,rhs_weap_ak103_2
+АК-103-2 Б-13,1220,rhs_weap_ak103_2_npz
+АК-103 ГП,1800,rhs_weap_ak103_gp25
+ АК-103 ГП Б-13,1920,rhs_weap_ak103_gp25_npz
+АК-103 Зенитка,1400,rhs_weap_ak103_zenitco01
+АК-103 Зенитка Б-33,1520,rhs_weap_ak103_zenitco01_b33
+АК-104 Б-13,1120,rhs_weap_ak104_npz
+АК-104 Зенитка,1300,rhs_weap_ak104_zenitco01
+АК-104 Зенитка Б-33,1420,rhs_weap_ak104_zenitco01_b33
+АК-105 Зенитка,1100,rhs_weap_ak105_zenitco01
+АК-105 Зенитка Б-33,1120,rhs_weap_ak105_zenitco01_b33
+АК-105 Б-13,920,rhs_weap_ak105_npz
+АК-74,700,rhs_weap_ak74
+АК-74 Green,750,rhs_weap_ak74_3
+АК-74 Olive,750,rhs_weap_ak74_2
+АК-74 ГП-25,1500,rhs_weap_ak74_gp25
+АК-74М,900,rhs_weap_ak74m
+АК-74М Camo,950,rhs_weap_ak74m_camo
+АК-74М Desert,950,rhs_weap_ak74m_desert
+АК-74М Olive,950,rhs_weap_ak74m_fullplum
+АК-74М 2маг,950,rhs_weap_ak74m_2mag
+АК-74М 2маг Б-13,1070,rhs_weap_ak74m_2mag_npz
+АК-74М Б-13 Black,1020,Б-13 rhs_weap_ak74m_npz
+АК-74М Б-13 Desert,1070,rhs_weap_ak74m_desert_npz
+АК-74М Б-13 Olive,1070,rhs_weap_ak74m_fullplum_npz
+АК-74М ГП-25 Black,1700,rhs_weap_ak74m_gp25
+АК-74М ГП-25 Olive,1750,rhs_weap_ak74m_fullplum_gp25
+АК-74М ГП-25 Б-13 Black,1820,rhs_weap_ak74m_gp25_npz
+АК-74М ГП-25 Б-13 olive,1870,rhs_weap_ak74m_fullplum_gp25_npz
+АК-74М Зенитка,1200,rhs_weap_ak74m_zenitco01
+АК-74М Зенитка Б-33,1320,rhs_weap_ak74m_zenitco01_b33
+АК-74МР УУК,1400,rhs_weap_ak74mr
+АК-74МР УУК ГП-25,2200,rhs_weap_ak74mr_gp25
+АК-74Н,800,rhs_weap_ak74n
+АК-74Н ГП-25,1600,rhs_weap_ak74n_gp25
+АК-74Н ГП-25 НПЗ,1645,rhs_weap_ak74n_gp25_npz
+АК-74Н НПЗ,845,rhs_weap_ak74n_npz
+АК-74Н Слива Б-13,920,rhs_weap_ak74n_2_npz
+АК-74Н Слива ГП-25 Б-13,1620,rhs_weap_ak74n_2_gp25_npz
+АКМ,650,rhs_weap_akm
+АКМ ГП-25,1350,rhs_weap_akm_gp25
+АКМ Зенитка Б-33,970,rhs_weap_akm_zenitco01_b33
+АКМН,700,rhs_weap_akmn
+АКМН ГП-25,1400,rhs_weap_akmn_gp25
+АКМН ГП-25 НПЗ,1445,rhs_weap_akmn_gp25_npz
+АКМН НПЗ,745,rhs_weap_akmn_npz
+АКМС,450,rhs_weap_akms
+АКМС ГП-25,1150,rhs_weap_akms_gp25
+АКС-74,550,rhs_weap_aks74
+АКС-74 Olive,600,rhs_weap_aks74_2
+АКС-74 ГП-25,1250,rhs_weap_aks74_gp25
+АКС-74Н,700,rhs_weap_aks74n
+АКС-74Н Olive,750,rhs_weap_aks74n_2
+АКС-74Н ГП-25,1400,rhs_weap_aks74n_gp25
+АКС-74Н ГП-25 НПЗ,1445,rhs_weap_aks74n_gp25_npz
+АКС-74Н НПЗ,745,rhs_weap_aks74n_npz
+АКС-74Н Слива Б-13,820,rhs_weap_aks74n_2_npz
+АКС-74У,400,rhs_weap_aks74u
+АКС-74УН,500,rhs_weap_aks74un
+АС ВАЛ,2000,rhs_weap_asval
+АС ВАЛ GRIP,2050,rhs_weap_asval_grip
+АС ВАЛ GRIP НПЗ,2095,rhs_weap_asval_grip_npz
+АС ВАЛ НПЗ,2045,rhs_weap_asval_npz
+ВСС Винторез,2050,rhs_weap_vss
+ВСС Винторез GRIP,2100,rhs_weap_vss_grip
+ВСС Винторез GRIP НПЗ,2145,rhs_weap_vss_grip_npz
+ВСС Винторез НПЗ,2095,rhs_weap_vss_npz
+ПКМ ,5000,rhs_weap_pkm
+ПКП,5500,rhs_weap_pkp
+ПМ-63,0,rhs_weap_pm63
+СВДМ,2000,rhs_weap_svdp
+СВДМ Woodland,2050,rhs_weap_svdp_wd
+СВДМ НПЗ,2045,rhs_weap_svdp_npz
+СВДМ НПЗ Woodland,2950,rhs_weap_svdp_wd_npz
+СВДС,1800,rhs_weap_svds
+СВДС НПЗ,1845,rhs_weap_svds_npz
+IZh-18,0,rhs_weap_Izh18
+Karabiner 98 Kurz,0,rhs_weap_kar98k
+M21A,500,rhs_weap_m21a
+M21A Rail,550,rhs_weap_m21a_pr
+M21S,450,rhs_weap_m21s
+M21S Rail,500,rhs_weap_m21s_pr
+M70AB2,50,rhs_weap_m70ab2
+M70B1,100,rhs_weap_m70b1
+M76,200,rhs_weap_m76
+M92,0,rhs_weap_m92
+Mosin SBR,300,rhs_weap_mosin_sbr
+Sa vz. 58P,350,rhs_weap_savz58p
+Sa vz. 58P Black,400,rhs_weap_savz58p_black
+Sa vz. 58P Rail ,360,rhs_weap_savz58p_rail
+Sa vz. 58P Rail  Black,410,rhs_weap_savz58p_rail_black
+Sa vz. 58V,300,rhs_weap_savz58v
+Sa vz. 58V Black,300,rhs_weap_savz58v_black
+Sa vz. 58V Rail ,310,rhs_weap_savz58v_rail
+Sa vz. 58V Rail  Black,360,rhs_weap_savz58v_rail_black
+Винтовка Мосина М38 ,0,rhs_weap_m38
+Винтовка Мосина М38 Рельса,10,rhs_weap_m38_rail
+HK416 D10,1800,rhs_weap_hk416d10
+HK416 D10 M203,2800,rhs_weap_hk416d10_m320
+HK416 SOPMOD STOCK,1900,rhs_weap_hk416d10_LMT
+HK416 SOPMOD STOCK desert,1950,rhs_weap_hk416d10_LMT_d
+HK416 SOPMOD STOCK woodlad,1950,rhs_weap_hk416d10_LMT_wd
+HK416 D14.5,1900,rhs_weap_hk416d145
+HK416 D14.5 desert grass,1950,rhs_weap_hk416d145_d
+HK416 D14.5 desert net,1950,rhs_weap_hk416d145_d
+HK416 D14.5 woodland grass,1950,rhs_weap_hk416d145_wd
+HK416 D14.5 woodland net,1950,rhs_weap_hk416d145_wd_2
+HK416 D14.5 M203,2900,rhs_weap_hk416d145_m320
+M107,10000,rhs_weap_M107
+M107 desert,10050,rhs_weap_M107_d
+M107 woodland,10050,rhs_weap_M107_w
+M14 EBR RI,4000,rhs_weap_m14ebrri
+m24 Sws,4000,rhs_weap_m24sws
+m24 Sws desert,4050,rhs_weap_m24sws_d
+m24 Sws woodland,4050,rhs_weap_m24sws_wd
+M240B,7000,rhs_weap_m240B
+M240B CAP,6800,rhs_weap_m240B_CAP
+M240G,7500,rhs_weap_m240G
+M249,6600,rhs_weap_m249
+M249 PIP Long,6650,rhs_weap_m249_pip_L
+M249 PIP Long Para,6700,rhs_weap_m249_pip_L_para
+M249 PIP Long VFG,6700,rhs_weap_m249_pip_L_vfg
+M249 PIP Short,6500,rhs_weap_m249_pip_S
+M249 PIP Short Para,6550,rhs_weap_m249_pip_S_para
+M249 PIP Short VFG,6600,rhs_weap_m249_pip_S_vfg
+M249 PIP Solid Stock,6650,rhs_weap_m249_pip
+M27 IAR,3000,rhs_weap_m27iar
+M27 IAR TD Grip,3100,rhs_weap_m27iar_grip
+M32 MGL,6500,rhs_weap_m32
+M4 Carryhandle PMAG M-Stock,820,rhs_weap_m4_carryhandle_mstock
+M40A5,5000,rhs_weap_m40a5
+M40A5 desert,5050,rhs_weap_m40a5_d
+M40A5 woodland,5050,rhs_weap_m40a5_wd
+M4A1 Block II,800,rhs_weap_m4a1_blockII
+M4A1 Block II desert,850,rhs_weap_m4a1_blockII_d
+M4A1 Block II woodland,850,rhs_weap_m4a1_blockII_wd
+M4A1 Block II m203,1800,rhs_weap_m4a1_blockII_M203
+M4A1 Block II Black m203,1800,rhs_weap_m4a1_blockII_M203_bk
+M4A1 Block II desert m203,1850,rhs_weap_m4a1_blockII_M203_d
+M4A1 Block II woodland m203,1850,rhs_weap_m4a1_blockII_M203_wd
+M4A1 Block II Black SOPMOD Stock,900,rhs_weap_m4a1_blockII_KAC_bk
+M4A1 Block II desert SOPMOD Stock ,950,rhs_weap_m4a1_blockII_KAC_d
+M4A1 Block II Woodland SOPMOD Stock,950,rhs_weap_m4a1_blockII_KAC_wd
+M4A1,700,rhs_weap_m4a1
+M4A1 M203S,1600,rhs_weap_m4_m203S
+M4A1 M203,1700,rhs_weap_m4_m203
+M4A1 PMAG Magpull Stock,780,1
+M4A1 PMAG,740,1
+M590A1 Long,550,rhs_weap_M590_8RD
+M590A1 Short,500,rhs_weap_M590_5RD
+Mk11 Mod 0,5600,rhs_weap_sr25
+Mk11 Mod 0 desert,5650,rhs_weap_sr25_d
+Mk11 Mod 0 woodland,5650,rhs_weap_sr25_wd
+Mk11 Mod 0 EC,5500,rhs_weap_sr25_ec
+Mk11 Mod 0 EC desert,5550,rhs_weap_sr25_ec_d
+Mk11 Mod 0 EC woodland,5550,rhs_weap_sr25_ec_wd
+Mk18 Mod 1,1500,rhs_weap_mk18
+Mk18 Mod 1 desert,1550,rhs_weap_mk18_d
+Mk18 Mod 1 woodland,1550,rhs_weap_mk18_wd
+Mk18 Mod 1 SOPMOD Stock,1600,rhs_weap_mk18_KAC
+Mk18 Mod 1 Black SOPMOD Stock,1650,rhs_weap_mk18_KAC_bk
+Mk18 Mod 1 desert SOPMOD Stock,1650,rhs_weap_mk18_KAC_d
+Mk18 Mod 1 woodland SOPMOD Stock,1650,rhs_weap_mk18_KAC_wd
+Mk18 Mod 1 M203,2500,rhs_weap_mk18_m320
+MP7A2,1000,rhsusf_weap_MP7A2
+MP7A2 aor1,1050,rhsusf_weap_MP7A2_aor1
+MP7A2 desert,1050,rhsusf_weap_MP7A2_desert
+MP7A2 winter,150,rhsusf_weap_MP7A2_winter
+M16A4,850,rhs_weap_m16a4
+M16A4 PMAG,890,rhs_weap_m16a4_carryhandle_pmag
+M16A4 p,840,rhs_weap_m16a4_carryhandle_grip
+M16A4 p PMAG,880,rhs_weap_m16a4_carryhandle_grip_pmag
+M16A4 p M203,1840,rhs_weap_m16a4_carryhandle_M203
+M2010 ESR,10000,rhs_weap_XM2010
+M2010 ESR woodland,10050,rhs_weap_XM2010_wd
+M2010 ESR  sa,10050,rhs_weap_XM2010_sa
+M2010 ESR desert,10050,rhs_weap_XM2010_d
+M4,500,rhs_weap_m4
+M4 M203S,1400,rhs_weap_m4_m203S
+M4 M203,1500,rhs_weap_m4_m203
+M4 M320,4000,rhs_weap_m4_m320
+M4 PMAG,540,rhs_weap_m4_grip
+M4 PMAG Magpull Stock,620,rhs_weap_m4_mstock
+ M4 p,490,rhs_weap_m4_carryhandle
+M4 p PMAG,540,1
+M4A1 PIP,700,rhs_weap_m4a1
+M4A1 PIP M203S,1600,rhs_weap_m4a1_m203s
+M4A1 PIP M203S desert,1650,rhs_weap_m4a1_m203s_d
+M4A1 PIP M203S woodland,1650,rhs_weap_m4a1_m203s_wd
+M4A1 PIP M203,1700,rhs_weap_m4a1_m203
+M4A1 PIP M320,4200,rhs_weap_m4a1_m320
+HK G36C,2000,rhs_weap_g36c
+HK G36KV,2100,rhs_weap_g36kv
+M21A Rail PBG,1200,rhs_weap_m21a_pr_pbg40
+M84,3000,rhs_weap_m84
+FN Minimi Para RIS,7000,rhs_weap_minimi_para_railed
+HK G36KV AG36,4000,rhs_weap_g36kv_ag36
+M21A PBG,1160,rhs_weap_m21a_pbg40
+M70B1N,200,rhs_weap_m70b1n
+M70B3N,300,rhs_weap_m70b3n
+M70B3N PBG,800,rhs_weap_m70b3n_pbg40
+M82A1,8000,rhs_weap_m82a1
+M84A Scorpion,100,rhs_weap_scorpion
+L110 7.62 LMG,7000,UK3CB_BAF_L103A2
+L110A1 LMG,6000,UK3CB_BAF_L110A1
+L110A2 LMG,6500,UK3CB_BAF_L110A2
+L110A2 RIS LMG ,6600,UK3CB_BAF_L110A2RIS
+L110A3 LMG,6700,UK3CB_BAF_L110A3
+L115A3,38000,UK3CB_BAF_L115A3
+L115A3 black,38050,UK3CB_BAF_L115A3_BL
+L115A3 sand,38050,UK3CB_BAF_L115A3_DE
+L115A3 Ghillie,38010,UK3CB_BAF_L115A3_Ghillie
+L115A3 Ghillie black,38060,UK3CB_BAF_L115A3_BL_Ghillie
+L115A3 Ghillie sand,38060,UK3CB_BAF_L115A3_DE_Ghillie
+L118A1 AWC ,40000,UK3CB_BAF_L118A1_Covert
+L118A1 AWC black,40050,UK3CB_BAF_L118A1_Covert_BL
+L118A1 AWC sand,40050,UK3CB_BAF_L118A1_Covert_DE
+L119A1,1800,UK3CB_BAF_L119A1
+L119A1 CQB,1700,UK3CB_BAF_L119A1_CQB
+L119A1 UK UGL,2800,UK3CB_BAF_L119A1_UKUGL
+L119A1 Front Grip,1900,UK3CB_BAF_L119A1_FG
+L128A1 Shotgun,800,UK3CB_BAF_L128A1
+L129A1,4500,UK3CB_BAF_L129A1
+L135 LRPAS,12000,UK3CB_BAF_L135A1
+L1A1 SLR,500,UK3CB_BAF_L1A1
+L1A1 SLR woodland stock,550,UK3CB_BAF_L1A1_Wood
+L22,500,UK3CB_BAF_L22
+L22A2,500,UK3CB_BAF_L22A2
+L7A2 GPMG,550,UK3CB_BAF_L7A2
+L7A2 GPMG,550,UK3CB_BAF_L7A2_FIST
+L85AA2,1000,UK3CB_BAF_L85A2
+L85A2EMAG,1050,UK3CB_BAF_L85A2_EMAG
+L85A2 AFG,1040,UK3CB_BAF_L85A2_RIS_AFG
+L85A2 RIS,1100,UK3CB_BAF_L85A2_RIS
+L85A2 RIS GREEN,1150,UK3CB_BAF_L85A2_RIS_Green
+L85A2 RIS Tan,1150,UK3CB_BAF_L85A2_RIS_Tan
+L85A2 L123A3 Ladder,2500,UK3CB_BAF_L85A2_UGL
+L85A2 L123A3 HWS,3000,UK3CB_BAF_L85A2_UGL_HWS
+L86A2 LSW,1300,UK3CB_BAF_L86A2
+L86A2 RIS DMR,1400,UK3CB_BAF_L86A3
+L91A1 SMG,500,UK3CB_BAF_L91A1
+L92A1 SMG,1000,UK3CB_BAF_L92A1
+Chiappa Rhino 60DS,900,hgun_Pistol_heavy_02_F
+Custom Covert II,1400,hgun_ACPC2_F
+FNX 45 Tactical,1350,hgun_Pistol_heavy_01_F
+P99,550,hgun_P07_F
+P99 Haki,600,hgun_P07_khk_F
+AEK 919 ACP,400,AEK_919K
+Glock 17 9x19mm,400,KA_Glock_17_Single
+Glock 17 Modular 9x19mm,450,KA_Glock_17
+Glock 18 9x19mm,530,KA_Glock_18_Single
+Glock 18 Modular 9x19mm,580,KA_Glock_18
+HK Mk23 MOD0 SOCOM Black,1900,KA_Mk23_black
+HK Mk23 MOD0 SOCOM Silver,1900,KA_Mk23_silver
+MagPul FMG9 9x19mm SMG,1400,KA_FMG9
+MP7A1 4.6x30mm 20Rnd Black,1750,KA_MP7_Pistol_Black_20Rnd
+MP7A1 4.6x30mm 20Rnd Green,1750,KA_MP7_Pistol_Green_20Rnd
+MP7A1 4.6x30K 9x18mm 40Rnd Black,1800,KA_MP7_Pistol_Black_40Rnd
+MP7A1 4.6x30K 9x18mm 40Rnd Green,1800,KA_MP7_Pistol_Green_40Rnd
+Beretta Px4 Storm 9x19mm Pistol,500,KA_Px4
+Beretta Px4 Storm 9x19mm Pistol Black,550,KA_Px4_Black
+Calico M950 9x19mm,1000,Calico_M950
+Desert Eagle .50AE,1800,Desert_Eagle
+FN 57 IOM 5.7x28mm,1400,KA_FN57
+FNP .45ACP 40Rnd,1200,KA_FNP45
+Sawed Off Shotgun 12 Gauge,0,KICKASS_Sawed_Off_Shotgun
+SIG P226 9x19mm Pistol,700,KA_P226
+SIG P226 9x19mm Pistol Black,750,KA_P226_Black
+Silver Baller,1200,KA_SilverBaller
+Silver Baller Long Slide,1300,KA_SilverBaller_L
+SPP-1 4.5x39.5 R,600,SPP_1_base_F
+SR-2M Veresk 9x21 Gyurza,2000,KA_SR2M
+Tl-122 Flashlight,0,KA_TL_122_flashlight
+CZ 75 COMPACT,500,CUP_hgun_Compact
+CZ 75 DUTY,550,CUP_hgun_Duty
+CZ 75 PHANTOM,650,CUP_hgun_Phantom
+Micro Uzi,500,CUP_hgun_MicroUzi
+Taurus Tracker Model 455,432,CUP_hgun_TaurusTracker455
+Taurus Tracker Model 455 Золотой,17600,CUP_hgun_TaurusTracker455_gold
+ПМ,0,rhs_weap_makarov_pm
+ПЯ,250,rhs_weap_pya
+ТР-8,20,rhs_weap_tr8
+ROP-30 White,10,rhs_weap_rsp30_white
+ROP-30 Green,10,rhs_weap_rsp30_green
+ROP-30 Red,10,rhs_weap_rsp30_red
+PP-2000 Folded,500,rhs_weap_pp2000_folded
+6П9,600,rhs_weap_pb_6p9
+Sa vz. 51 Folded,100,rhs_weap_savz61_folded
+ТТ-33,0,rhs_weap_tt33
+M9 Beretta,675,rhsusf_weap_m9
+M1911A1,0,rhsusf_weap_m1911a1
+Glock 17,525,rhsusf_weap_glock17g4
+M320,2500,rhs_weap_M320
+VMM3,200,ACE_VMM3
+VMH3,1,ACE_VMH3
+Titan Compact Kayot,260000,launch_O_Titan_short_F
+Titan Compact Olive,260000,launch_I_Titan_short_F
+Titan Compact Tan,260000,launch_B_Titan_short_F
+Titan Rex,270000,launch_O_Titan_F
+Titan Tan,270000,launch_B_Titan_F
+Titan Ziv,270000,launch_I_Titan_F
+SRAW,246000,KA_SRAW
+SRAW GTAM,246000,KA_SRAW_GTAM
+SRAW MPV,246000,KA_SRAW_MPV
+SRAW AST,246000,KA_SRAW_AST
+FGM-148 Javelin,225000,rhs_weap_fgm148
+FIM-92F,38000,rhs_weap_fim92
+M136(HEAT),1500,rhs_weap_M136
+M136(HEDP),1500,rhs_weap_M136_hedp
+M136(HP),1500,rhs_weap_M136_hp
+M3 MAAWS,2000,rhs_weap_maaws
+M72A7,2000,rhs_weap_m72a7
+MK153 Mod 0 SMAW Black,13000,rhs_weap_smaw
+MK153 Mod 0 SMAW Green,13000,rhs_weap_smaw_green
+ 9K38 Igla,30000, rhs_weap_igla
+РПГ-26,900,rhs_weap_rpg26
+РПГ-7В2,1250,rhs_weap_rpg7
+РШГ-2,800,rhs_weap_rshg2
+ILAW HEDP Launcher,1500,UK3CB_BAF_AT4_CS_AP_Launcher
+ILAW HP Launcher,1500,UK3CB_BAF_AT4_CS_AT_Launcher
+L111A1 HMG Static Weapon,10000,UK3CB_BAF_L111A1
+L134A1 GMG Static Weapon,18000,UK3CB_BAF_L134A1
+L16 Mortar Static Weapon,6000,UK3CB_BAF_L16
+M6 Light Mortar,3000,UK3CB_BAF_M6
+NLAW Launcher,30000,UK3CB_BAF_NLAW_Launcher
+Tripod Static Weapon,50,UK3CB_BAF_Tripod
+ПРТК М47 ДРАКОН,13000,CUP_launch_M47
+Йоррис J2 #1x,180,optic_yorris
+АСО/АСО SMG #1x Green,240,optic_aco_grn_smg
+АСО/АСО SMG #1x Red,240,optic_aco_smg
+MOS #6x,1400,optic_sos
+RCO #4x,1940,optic_hamr
+AMS #3x-10x Tan,1700,optic_ams_snd
+AMS #3x-10x Woodland,1700,optic_ams_khk
+AMS #3x-10x Black,1700,optic_ams
+ERCO #1x-4x Black,1800,optic_erco_blk_f
+ERCO #1x-4x Woodland,1800,optic_erco_khk_f
+ERCO #1x-4x Tan,1800,optic_erco_snd_f
+Eotech 553 #1x,600,ka_eotech553
+KA Eotech 557 Magnifier #1x-3x,1200,ka_557_magnifier_down
+KA Elcan #4x Black,1800,ka_elcan_black
+KA Elcan #4x send,1800,ka_elcan_sand
+KA Elcan Black Folding sight 45 Degrees #1x-4x,1850,ka_elcan_black_folding_sight_45_degree
+KA Elcan Sand Folding sight 45 Degrees #1x-4x,1850,ka_elcan_sand_folding_sight_45_degree
+KA Rakurs #1x,550,ka_rakurs
+Aimpoint CompM4 #1x,600,cup_optic_compm4
+AN/PAS 13C2 HTWS,15000,cup_optic_an_pas_13c2
+AN/PAS 13C1 TWS,13000,cup_optic_an_pas_13c1
+AN/PVS-10 NVS,11500,cup_optic_an_pvs_10
+AN/PVS-4 NVS,5000,cup_optic_an_pvs_4
+CWS,1,cup_optic_cws
+Elcan Optic #4x ,1800,cup_optic_elcan
+Elcan Optic Reflex #1x-4x,2100,cup_optic_elcan_reflex
+Elcan M145 #4x,750,cup_optic_elcanm145
+Elcan SpecterDR #1x-4x,1900,cup_optic_elcan_specterdr
+Eotech 533 HWS #1x Grey,600,cup_optic_eotech533grey
+Eotech 533 HWS #1x Tan,600,cup_optic_eotech533
+EoTech Holo #1x Black,500,cup_optic_holoblack
+EoTech Holo #1x Desert,500,cup_optic_holodesert
+EoTech Holo #1x Woodlend,550,cup_optic_holowdl
+Leupold Mk4 CQ/T 1-3x14mm,990,cup_optic_leupoldmk4_cq_t
+M68 CCO #1x Black,700,cup_optic_compm2_black
+M68 CCO #1x Desert,750,cup_optic_compm2_desert
+M68 CCO #1x Woodland 2,750,cup_optic_compm2_woodland2
+M68 CCO #1x Woodland ,750,cup_optic_compm2_woodland
+Meopta Rapid Acquisition Dot #1x,680,cup_optic_mrad
+Meopta ZD-Dot #1x,750,cup_optic_zddot
+Schimdt and Bender 1.1-4x20 PM ShortDot,2900,cup_optic_sb_11_4x20_pm
+SUSAT L9A1 #4x,800,cup_optic_susat
+Trijicon ACOG #4x,1100,cup_optic_rco
+Trijicon ACOG #4x Desert,1150,cup_optic_rco_desert
+Trijicon ACOG TA31F #1x-4x,1200,cup_optic_acog
+Trijicon Rx01 Red Dot Sight #1x Black,450,cup_optic_trijiconrx01_black
+Trijicon Rx01 Red Dot Sight #1x Desert,500,cup_optic_trijiconrx01_desert
+Кобра ЭКП-1С-03 #1x,400,CUP_optic_Kobra
+НСПУ 1ПН34  ,3400,CUP_optic_NSPU
+ПСО-1 #4x,900,CUP_optic_PSO_1
+Шахин,3000,CUP_optic_GOSHAWK
+1P76 Rakurs-PM #1x,450,rhs_acc_rakurspm
+1П78 #2.8x,500,rhs_acc_1p78
+DH 5-20x56,2300,rhs_acc_dh520x56
+ЕКП-8-18 #1x,300,rhs_acc_ekp8_18
+1П29 #4x,550,rhs_acc_1p29
+1П63 #1x,500,rhs_acc_1p63
+1ПН93-1 #4x,2000,rhs_acc_1pn93_1
+1ПН93-2 #4x,2200,rhs_acc_1pn93_2
+ЕКП-1С-03 #1x,400,rhs_acc_ekp1
+ЕКП-8-02 #1x,250,rhs_acc_ekp8_02
+НИТЬ #2.8x,270,rhs_acc_nita
+ПГО-7В #2.7,350,rhs_acc_pgo7v
+ПГО-7В2 #2.7,380,rhs_acc_pgo7v2
+ПГО-7В3 #2.7,400,rhs_acc_pgo7v3
+ПК-АС #1x,460,rhs_acc_pkas
+ПСО-1М2 #4x,800,rhs_acc_pso1m2
+ПСО-1М2-1 #4x,900,rhs_acc_pso1m21
+AimPoint T1 LT660 #1x,450,rhsusf_acc_t1_high
+AimPoint T1 LT 661/AimPoint T1 LT 661 (Forward) #1x,425,rhsusf_acc_t1_low
+AN/PAS-13G(V)1 #2x-4x,15000,rhsusf_acc_anpas13gv1
+AN/PVQ-31A RCO #4x RCO,1000,rhsusf_acc_acog_usmc
+AN/PVQ-31A RCO #4x ARD,1000,rhsusf_acc_acog2_usmc
+AN/PVQ-31A RCO #4x ARD (ARD/Крышка),1000,rhsusf_acc_acog3_usmc
+AN/PVS-27 #1x,13900,rhsusf_acc_anpvs27
+EXPS3 #1x,750,rhsusf_acc_eotech
+G33+T1 #1x-3x,1530,rhsusf_acc_g33_t1
+G33+XPS3 #1x-3x,1400,rhsusf_acc_g33_xps3
+G33+XPS3 #1x-3x Tan,1450,rhsusf_acc_g33_xps3_tan
+M145 MGO #4x,1050,rhsusf_acc_elcan
+M145 MGO #4x Ard,1450,rhsusf_acc_elcan_ard
+M150 RCO #4x,1100,rhsusf_acc_acog
+M150 RCO #4x Ard,1150,rhsusf_acc_acog2
+M150 RCO #4x Ard (ARD/Крышка),1150,rhsusf_acc_acog3
+M150 RCO + AN/PVS-27 #4x,16300,rhsusf_acc_acog_anpvs27
+M552 CCO #1x,500,rhsusf_acc_eotech_552
+M552 CCO #1x Desert,550,rhsusf_acc_eotech_552_d
+M552 CCO #1x Woodland,550,rhsusf_acc_eotech_552_wd
+M68 CCO #1x,600,rhsusf_acc_compm4
+M8541/M8541 3x-12x,3900,rhsusf_acc_m8541
+M8541/M8541 (low mount) #3x-12x,3950,rhsusf_acc_m8541_low
+M8541/M8541 (low moun/Desert) #3x-12x ,3950,rhsusf_acc_m8541_low_d
+M8541/M8541 (low mount/Woodland) #3x-12x,3950,rhsusf_acc_m8541_low_wd
+M8541A (low mount) #3x-12x,4000,rhsusf_acc_premier_low
+M8541A + AN/PVS-27 #3x-12x,18900,rhsusf_acc_premier_anpvs27
+M8541A SSDS #3x-12x,4000,rhsusf_acc_premier
+Mk. 4ER/T 3.5-10x M3,1200,rhsusf_acc_leupoldmk4
+Mk. 4ER/T 3.5-10x M3 Desert,1250,rhsusf_acc_leupoldmk4_d
+Mk. 4ER/T 3.5-10x M3 Woodland,1250,rhsusf_acc_leupoldmk4_wd
+Mk. 4 ER/T 6.5-20x M5,1300,rhsusf_acc_leupoldmk4_2
+Mk. 4 ER/T 6.5-20x M5 Desert,1350,rhsusf_acc_leupoldmk4_2_d
+RM05 RMR LT726/RM05 RMR LT726 (Forward) #1x,400,rhsusf_acc_rm05
+RX01 Reflex #1x W/O Filter,450,rhsusf_acc_rx01_nofilter
+RX01 Reflex #1x,500,rhsusf_acc_rx01
+RX01 Reflex #1x Tan  W/O Filter,500,rhsusf_acc_rx01_nofilter_tan
+RX01 Reflex #1x Tan ,500,rhsusf_acc_rx01_tan
+SU-230/PVS #1x-4x,2000,rhsusf_acc_su230
+SU-230/PVS #1x-4x Cayote,2050,rhsusf_acc_su230_c
+SU-230/PVS #1x-4x MRDS,2050,rhsusf_acc_su230_mrds
+SU-230/PVS #1x-4x MRDS Cayote,2050,rhsusf_acc_su230_mrds_c
+SU-230A/PVS #1x-4x,2000,rhsusf_acc_su230a
+SU-230A/PVS #1x-4x Cayote,2050,rhsusf_acc_su230a_c
+SU-230A/PVS #1x-4x MRDS,2050,rhsusf_acc_su230a_mrds
+SU-230A/PVS #1x-4x MRDS Cayote,2050,rhsusf_acc_su230a_mrds_c
+SU-260/P (MDO) #6x,1400,rhsusf_acc_acog_mdo
+TA31RCO-RMR #1x-4x,1500,rhsusf_acc_acog_rmr
+TA31RCO #4x Desert,1300,rhsusf_acc_acog_d
+TA31RCO #4x Woodland,1300,rhsusf_acc_acog_wd
+XPS3 #1x,700,rhsusf_acc_eotech_xps3
+SMAW Sight,500,rhs_weap_optic_smaw
+M3 MAAWS sight,500,rhs_optic_maaws
+Eotech 553 HWS #1x,600,uk3cb_baf_eotech
+KITE #4x,12000,uk3cb_baf_kite
+KITE (MAXIKITE) #6x,16000,uk3cb_baf_maxikite
+LDS #1x-4x,2000,rksl_optic_lds
+LDS #1x-4x Cayote,2050,rksl_optic_lds_c
+LDS (without reflex) #4x,1800,uk3cb_baf_specterlds
+RMR (MS19) #1x ,350,rksl_optic_rmr_ms19
+RMR (MS19) #1x FDE,400,rksl_optic_rmr_ms19_fde
+S+B 3-12x50 PMII ,3900,rksl_optic_pmii_312
+S+B 3-12x50 PMII  Desert,3950,rksl_optic_pmii_312_des
+S+B 3-12x50 PMII sunshade,3950,rksl_optic_pmii_312_sunshade
+S+B 3-12x50 PMII sunshade Desert,3950,rksl_optic_pmii_312_sunshade_des
+S+B 3-12x50 PMII sunshade Woodland,3950,rksl_optic_pmii_312_sunshade_wdl
+S+B 3-12x50 PMII Woodland,3950,rksl_optic_pmii_312_wdl
+S+B 5-25x56 PMII,6000,rksl_optic_pmii_525
+S+B 5-25x56 PMII Desert,6050,rksl_optic_pmii_525_des
+S+B 5-25x56 PMII Woodland,6050,rksl_optic_pmii_525_wdl
+SUIT L2A2 #4x,800,uk3cb_baf_suit
+SUSAT L9A1 #1x-4x,900,uk3cb_baf_susat
+Trijicon ACOG TA31F #1x-4x,1200,uk3cb_baf_ta31f
+Trijicon ACOG TA31F Hornbill #1x-4x,1250,uk3cb_baf_ta31f_hornbill
+Trijicon ACOG TA648RMR #1x-6x,2000,uk3cb_baf_ta648
+Trijicon ACOG TA648RMR-308 #1x-6x,2000,uk3cb_baf_ta648_308
+MOS (2D)/(PIP) #6x,1400,ace_optic_sos_pip
+RCO (2D)/(PIP) #4x,1940,ace_optic_hamr_pip
+Фонарик фля пистолета,50,acc_flashlight_pistol
+2ДП Клещ,200,rhs_acc_2dpzenit
+Перст-1ИК,300,rhs_acc_perst1ik
+Перст-3,500,No_Object
+AN/PEQ-15,600,rhsusf_acc_anpeq15side
+AN/PEQ-15 TOP,600,rhsusf_acc_anpeq15_top
+AN/PEQ-15 Black,600,rhsusf_acc_anpeq15side_bk
+AN/PEQ-15 Black Top,600,rhsusf_acc_anpeq15_bk_top
+AN/PEQ-15 + WMX (laser),700,rhsusf_acc_anpeq15_wmx
+AN/PEQ-15 + WMX (light),700,rhsusf_acc_anpeq15_wmx_light
+AN/PEQ-15/M952V (Laser),650,rhsusf_acc_anpeq15
+AN/PEQ-15/M952V (Flashlite),650,rhsusf_acc_anpeq15_light
+AN/PEQ-15/M952V Black (Laser),650,rhsusf_acc_anpeq15_bk
+AN/PEQ-15/M952V Black (Flashlite),650,rhsusf_acc_anpeq15_bk_light
+AN/PEQ-15A,650,rhsusf_acc_anpeq15a
+AN/PEQ-16A (Top/Laser),700,rhsusf_acc_anpeq16a_top
+AN/PEQ-16A (Top/Flashlite),700,rhsusf_acc_anpeq16a_light_top
+AN/PEQ-16A (Laser),700,rhsusf_acc_anpeq16a
+AN/PEQ-16A (Flashlite),700,rhsusf_acc_anpeq16a_light
+M952V,50,rhsusf_acc_m952v
+WMX Flashlight,100,rhsusf_acc_wmx
+WMX Flashlight Black,100,rhsusf_acc_wmx_bk
+XM8 Underbarrel light module,100,cup_acc_xm8_light_module
+LLM Mk3 Flashlight/LLM Mk3 IR,700,cup_acc_llm
+ANPEQ15 Black laser IR,700,ka_anpeq15_black_ir
+ANPEQ15 Tan laser IR,700,ka_anpeq15_tan_ir
+Фонари из КА Weapons,100,No_Object
+ЛЦУ из KA Weapons,500,No_Object
+Сошка CSAT Rex,50,bipod_02_f_hex
+Сошка CSAT Black,50,bipod_02_f_tan
+Сошка CSAT Brown,50,bipod_02_f_blk
+Сошка AAF Olive,50,bipod_03_f_oli
+Сошка AAF Black,50,bipod_03_f_blk
+Сошка NATO MTP,50,bipod_01_f_mtp
+Сошка NATO Tan,50,bipod_01_f_snd
+Сошка NATO Black,50,bipod_01_f_blk
+Сошка NATO Woodland,50,bipod_01_f_khk
+Harris 1A2-L Bipod (worn),120,cup_bipod_harris_1a2_l
+VLTOR Modpod Bipod,120,cup_bipod_vltor_modpod
+FFG-2,60,rhs_acc_grip_ffg2
+Harris Bipod,140,rhs_acc_harris_swivel
+RK-2,80,rhs_acc_grip_rk2
+RK-6,100,rhs_acc_grip_rk6
+AFG Grip,70,rhsusf_acc_grip2
+AFG Grip Tan,70,rhsusf_acc_grip2_tan
+AFG Grip Woodland,70,rhsusf_acc_grip2_wd
+Grip Pod,80,rhsusf_acc_grip1
+Harris Bipod,140,rhsusf_acc_harris_bipod
+TD Vertical Grip,100,rhsusf_acc_grip3
+TD Vertical Grip Tan,100,rhsusf_acc_grip3_tan
+AFG Grip MOE Stock Black,200,ATG_Grip_MOE_Grip_MOE_Stock_Black
+AFG Grip Original Grip Lightweight Stock,140,ATG_Grip_Original_Grip_Lightweight_Stock
+AFG Grip Original Grip Original Stock,50,ATG_Grip_Original_Grip_Original_Stock
+Bipod MOE Grip MOE Stock Black,220,Bipod_MOE_Grip_MOE_Stock_Black
+Bipod Original Grip Original Stock,120,Bipod_Original_Grip_Original_Stock
+MOE Grip MOE Stock Black,150,MOE_Grip_MOE_Stock_Black
+MOE Grip MOE Stock Green,200,MOE_Grip_MOE_Stock_Green
+MOE Grip MOE Stock Sand,200,MOE_Grip_MOE_Stock_Sand
+MOE Stock Lightweight Stock,130,MOE_Stock_Lightweight_Stock_Black
+Original Grip M16 Stock,20,Original_Grip_M16_Stock
+Original Grip Original Stock Stock,0,Original_Grip_Original_Stock
+Vertical Grip MOE Grip MOE Stock Black,180,Vertical_Grip_MOE_Grip_MOE_Stock_Black
+Vertical Grip Original Grip Original Stock,60,Vertical_Grip_Original_Grip_Original_Stock
+Rail Covers Black,20,
+Rail Covers Black Single,10,
+Щиты на пистолеты FNP45,800,KA_FNP45_shield
+Щиты на пистолеты FNP45 2,800,KA_FNP45_shield2
+A-grip,60,UK3CB_underbarrel_acc_afg
+Folding-grip,80,UK3CB_underbarrel_acc_fgrip
+Folding-grip and Harris Bipod,200,UK3CB_underbarrel_acc_fgrip_bipod
+Grip-pod,70,UK3CB_underbarrel_acc_grippod
+Harris Bipod,120,UK3CB_underbarrel_acc_bipod
+Глушитель (7.62мм),1000,muzzle_snds_B
+Глушитель (7.62мм) Tan ,1050,muzzle_snds_b_snd_f
+Глушитель (7.62мм) Woodland,1050,muzzle_snds_b_khk_f
+Глушитель (9.3 mm) tan,1250,muzzle_snds_93mmg_tan
+Глушитель (9.3 mm),1200,muzzle_snds_93mmg
+Глушитель (45.ACP),500,muzzle_snds_acp
+Глушитель (9mm),400,muzzle_snds_l
+Глушитель (6.5 mm) Black,800,muzzle_snds_h
+Глушитель (6.5 mm) Tan,850,muzzle_snds_h_snd_f
+Глушитель (6.5 mm) woodland,850,muzzle_snds_h_khk_f
+Глушитель (5.56 mm) Black,700,muzzle_snds_m
+Глушитель (5.56 mm) Tan,750,muzzle_snds_m_snd_f
+Глушитель (5.56 mm) Woodland,750,muzzle_snds_m_khk_f
+Скрытный Глушитель (5.8 mm) Black,900,muzzle_snds_58_blk_f
+Скрытный Глушитель (5.8 mm) Rex,950,muzzle_snds_58_hex_f
+Скрытный Глушитель (5.8 mm) Green Rex,950,muzzle_snds_58_ghex_f
+Пламегаситель,50,ace_muzzle_mzls_l
+Пламегаситель (.45acp),20,ace_muzzle_mzls_smg_01
+Пламегаситель (9mm),10,ace_muzzle_mzls_smg_02
+NT4 QDSS Black,1600,rhsusf_acc_nt4_black
+NT4 QDSS Tan,1650,rhsusf_acc_nt4_tan
+Rotex-5 Grey,1500,rhsusf_acc_rotex5_grey
+Rotex-5 Tan,1550,rhsusf_acc_rotex5_tan
+SF3P-556-1/2-28,100,rhsusf_acc_SF3P556
+SFMB-556-1/2-28,100,rhsusf_acc_SFMB556
+ARDEC 4-Prong,150,rhsusf_acc_ARDEC_M240
+SR-25 Rifle Suppressor Black,2000,rhsusf_acc_SR25S
+SR-25 Rifle Suppressor Des,2050,rhsusf_acc_SR25S_d
+SR-25 Rifle Suppressor Woodland,2050,rhsusf_acc_SR25S_wd
+Rotex-II Black,700,rhsusf_acc_rotex_mp7
+Rotex-II Aor1,750,rhsusf_acc_rotex_mp7_aor1
+Rotex-II Winter,750,rhsusf_acc_rotex_mp7_winter
+Rotex-II Desert,750,rhsusf_acc_rotex_mp7_desert
+TiTan Black,2500,rhsusf_acc_M2010S
+TiTan Des,2550,rhsusf_acc_M2010S_d
+TiTan Woodland,2550,rhsusf_acc_M2010S_wd
+TiTan Semi-arid,2550,rhsusf_acc_M2010S_sa
+SILENCERCO OMEGA 9K,800,rhsusf_acc_omega9k
+PBS-1 Supressor 5.45mm,500,AN94_MUZZLE_ATG_545
+AEK 919K Silencer,300,AEK_919K_Silencer
+PBS-1 9x19mm Silencer,400,KA_Vityaz_PBS_1_Silencer
+PBS-1 9x18mm Silencer,300,KA_PBS_1_Silencer_PP19
+PBS-4 Supressor 5.45mm,700,AN94_PBS4_545
+Px4 9x19mm Silencer,400,KA_Px4_Silencer
+ASh 12.7x55mm Supressor,1000,KA_ASh_12_Suppressor
+M98B Supressor,3000,KA_M98B_Silencer
+Mx4 9x19mm Silencer,500,KA_Mx4_Silencer
+RO991 9x19mm Silencer,500,KA_RO991_Silencer
+M950 Silencer,400,Calico_M950_Silencer
+DSR-50 Silencer,2500,KA_DSR50_Silencer
+FAMAS F1 Supressor 5.56x45mm,700,KA_FAMAS_F1_Silencer
+Galil ACE 5.56x45mm Supressor,900,KA_Galil_ACE22_Suppressor
+UMP 40 Silencer,300,KA_UMP40_Silencer
+UMP 45 Silencer,400,KA_UMP45_Silencer
+FN57 5.7x28mm Silencer,700,KA_FN57_Silencer
+Silencer .45acp,400,KA_FNP45_Original_Silencer
+Silencer 9mm,200,KA_Original_Silencer
+Мк23 silencer,400,KA_Mk23_Silencer
+P226 Silencer,200,KA_P226_Silencer
+10.3 Inches Barrel,100,103_Inches_Barrel
+10.3 Inches Barrel Flash ,150,103_Inches_Barrel_Flash_Hider
+10.3 Inches Barrel Silencer,1600,103_Inches_Barrel_Silencer
+10.3 Inches Barrel Silencer2,1000,103_Inches_Barrel_Silencer2
+14.5 Inches Barrel,200,145_Inches_Barrel
+14.5 Inches Barrel Bayonet,240,145_Inches_Barrel_Bayonet
+14.5 Inches Barrel Flash Hider,250,145_Inches_Barrel_Flash_Hider
+14.5 Inches Barrel Silencer,1800,145_Inches_Barrel_Silencer
+14.5 Inches Barrel Silencer 2,1900,145_Inches_Barrel_Silencer2
+Silverballer silencer,600,KA_SilverBaller_Silencer
+SR-2M 9x21mm Suppressor,900,KA_SR2M_Suppressor
+CS5 Silencer,1400,KA_CS5_Silencer
+MP7 Silencer,400,KA_MP7_Silencer
+MRC Silencer,1200,MRC_Silencer
+SCAR H 13 Inches Barrel,150,SCAR_13_Inches_Barrel
+SCAR H 13 Inches Barrel Flash Hider,200,SCAR_13_Inches_Barrel_Flash_Hider
+SCAR H 13 Inches Barrel Silencer,1800,SCAR_13_Inches_Barrel_Silencer
+SCAR H 16 Inches Barrel,200,SCAR_16_Inches_Barrel
+SCAR H 16 Inches Barrel Flash Hider,300,SCAR_16_Inches_Barrel_Flash_Hider
+SCAR H 16 Inches Barrel Silencer,1900,SCAR_16_Inches_Barrel_Silencer
+SCAR H 20 Inches Barrel,350,SCAR_20_Inches_Barrel
+SCAR H 20 Inches Barrel Flash Hider,400,SCAR_20_Inches_Barrel_Flash_Hider
+SCAR H 20 Inches Barrel Silencer,2100,SCAR_20_Inches_Barrel_Silencer
+SIG Silencer,300,KA_SIG_Silencer
+SKS Silencer,700,KA_SKS_Silencer
+WA2000 Silencer,1100,KA_WA2000_Silencer
+Глушитель М110,3000,CUP_muzzle_snds_M110
+Глушитель (М14),1800,CUP_muzzle_snds_M14
+Глушитель М16/М4 Black,1600,CUP_muzzle_snds_M16
+Глушитель М16/М4 Wood,1650,CUP_muzzle_snds_M16_camo
+G36 Silencer,1500,CUP_muzzle_snds_G36_black
+Глушитель G36,1500,CUP_muzzle_snds_G36_desert
+Глушитель 9мм,300,CUP_muzzle_snds_M9
+Глушитель (MicroUzi),300,CUP_muzzle_snds_MicroUzi
+Глушитель ПБС-1,700,CUP_muzzle_Bizon
+Глушитель ХМ8,1700,CUP_muzzle_snds_XM8
+Глушитель ПБС-4,1000,CUP_muzzle_PBS4
+ДПМ-АК-5,70,rhs_acc_ak5
+ДТК-1,50,rhs_acc_dtk1
+ДТК-2,60,rhs_acc_dtk2
+ДТК-3,70,rhs_acc_dtk3
+ДТК-4(7.62),800,rhs_acc_dtk4long
+ДТК-4(7.62)М,850,rhs_acc_dtk4screws
+ПБС-1,600,rhs_acc_pbs1
+ПГ С64,30,rhs_acc_pgs64_74un
+ТГП-А,500,rhs_acc_tgpa
+ДТК (1983),10,rhs_acc_dtk1983
+ДТК-4(5.45),700,rhs_acc_dtk4short
+ДТК,5,rhs_acc_dtk
+ДТК-1Л,30,rhs_acc_dtk1l
+ТПГ-В,1200,rhs_acc_tgpv
+ТПГ-В2,1300,rhs_acc_tgpv2
+6П9 Глуш,500,rhs_acc_6p9_suppressor
+AAC SDN5 7.62 Suppressor,800,rhsgref_sdn6_suppressor
+Zendl compensator,5,rhsgref_acc_zendl
+Suppressor (L110),1600,UK3CB_BAF_Silencer_L110
+Surefire Flash Hider,100,1
+Suppressor (L115/L129),2500,UK3CB_BAF_Silencer_L115A3
+Suppressor (L85),1500,UK3CB_BAF_Silencer_L85
+Suppressor (L91),800,UK3CB_BAF_Silencer_L91A1
+M59/85,50,rhssaf_helmet_m59_85_nocamo
+M59/85 oaklif,55,rhssaf_helmet_m59_85_oakleaf
+ТШ-4,55,rhs_tsh4
+ТШ-4 Балаклава,55,rhs_tsh4_bala
+ТШ-4 Ecc,55,rhs_tsh4_ess
+ТШ-4 Балаклава/Ecc,55,rhs_tsh4_ess_bala
+M56,50,rhsgref_M56
+SSh68,50,rhs_ssh68
+SSh68 Emr-Summer,50,rhsgref_ssh68_emr
+SSh68 TTsKO Didital,50,rhsgref_ssh68_ttsko_digi
+SSh68 TTsKO Forester,50,rhsgref_ssh68_ttsko_forest
+SSh68 TTsKO Mountein,50,rhsgref_ssh68_ttsko_mountain
+SSh68 TTsKO Urbal,50,rhsgref_ssh68_ttsko_dark
+SSh68 UN,50,rhsgref_ssh68_un
+SSh68 VSR,50,rhsgref_ssh68_vsr
+M1 liner,50,rhsgref_helmet_M1_liner
+M1 OG-107,50,rhsgref_helmet_M1_bare
+M1 OG-107/Alt,50,rhsgref_helmet_M1_bare_alt01
+M1 Painted,50,rhsgref_helmet_M1_painted
+M1 Painted/alt,50,rhsgref_helmet_M1_painted_alt01
+M1 Cup,50,CUP_H_USArmy_Helmet_M1_btp
+M1 Leaf,50,CUP_H_USArmy_Helmet_M1_Vine
+M1 Oliave,50,CUP_H_USArmy_Helmet_M1_Olive
+M1 Woodland,50,CUP_H_USArmy_Helmet_M1_m81
+ProTech SF,75,rhsusf_protech_helmet
+ProTech SF Ess,75,rhsusf_protech_helmet_ess
+ProTech SF Rhino,75,rhsusf_protech_helmet_rhino
+ProTech SF Rhino/Ess,75,rhsusf_protech_helmet_rhino_ess
+LWH m1942,150,CUP_H_USMC_LWH_DES
+LWH,150,CUP_H_USMC_Goggles_HelmetWDL
+LWH,150,CUP_H_USMC_Headset_GoggleW_HelmetWDL
+LWH,150,CUP_H_USMC_Headset_HelmetWDL
+LWH,150,CUP_H_USMC_HelmetWDL
+LWH,150,CUP_H_USMC_LWH_WDL
+LWH,150,CUP_H_RACS_Helmet_olive
+LWH,150,CUP_H_RACS_Helmet_Goggles_DES
+LWH,150,CUP_H_RACS_Helmet_Headset_DES
+LWH,150,CUP_H_RACS_Helmet_Goggles_DPAT
+LWH,150,CUP_H_RACS_Helmet_Headset_DPAT
+LWH,150,CUP_H_RACS_Helmet_DPAT
+LWH,150,CUP_H_RACS_Helmet_DES
+LWH,150,CUP_H_RACS_Helmet_Goggles_mech
+LWH,150,CUP_H_RACS_Helmet_Headset_mech
+LWH,150,CUP_H_RACS_Helmet_mech
+LWH,150,CUP_H_RACS_Helmet_tan
+LWH,150,rhsusf_lwh_helmet_M1942
+LWH,150,rhsusf_lwh_helmet_marpatd
+LWH,150,rhsusf_lwh_helmet_marpatd_ess
+LWH,150,rhsusf_lwh_helmet_marpatd_headset
+LWH,150,rhsusf_lwh_helmet_marpatwd
+LWH,150,rhsusf_lwh_helmet_marpatwd_blk_ess
+LWH,150,rhsusf_lwh_helmet_marpatwd_headset_blk
+LWH,150,rhsusf_lwh_helmet_marpatwd_headset
+LWH,150,rhsusf_lwh_helmet_marpatwd_ess
+LWH,150,CUP_H_USMC_LWH_ESS_DES
+LWH,150,CUP_H_USMC_LWH_ESS_WDL
+LWH,150,CUP_H_USMC_LWH_ESS_HS_DES
+LWH,150,CUP_H_USMC_LWH_ESS_HS_WDL
+LWH,150,CUP_H_USMC_LWH_ESS_LR_DES
+LWH,150,CUP_H_USMC_LWH_ESS_LR_WDL
+LWH,150,CUP_H_USMC_LWH_NVGMOUNT_DES
+LWH,150,CUP_H_USMC_LWH_NVGMOUNT_WDL
+LWH,150,CUP_H_USMC_LWH_NVGMOUNT_ESS_DES
+LWH,150,CUP_H_USMC_LWH_NVGMOUNT_ESS_WDL
+LWH,150,CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES
+LWH,150,CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_WDL
+LWH,150,CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES
+LWH,150,CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_WDL
+6Б26,150,rhs_6b26_green
+6Б26,150,rhs_6b26_bala_green
+6Б26,150,rhs_6b26_ess_green
+6Б26,150,rhs_6b26_ess_bala_green
+6Б26,150,rhs_6b26
+6Б26,150,rhs_6b26_bala
+6Б26,150,rhs_6b26_ess
+6Б26,150,rhs_6b26_ess_bala
+ACVC-H,150,rhsusf_cvc_green_helmet
+ACVC-H,150,rhsusf_cvc_green_alt_helmet
+ACVC-H,150,rhsusf_cvc_green_ess
+ACVC-H,150,rhsusf_cvc_helmet
+ACVC-H,150,rhsusf_cvc_alt_helmet
+FAST Ballistic OpsCore,175,rhsusf_opscore_aor1
+FAST Ballistic OpsCore,175,rhsusf_opscore_aor1_pelt
+FAST Ballistic OpsCore,175,rhsusf_opscore_aor1_pelt_nsw
+FAST Ballistic OpsCore,175,rhsusf_opscore_aor2
+FAST Ballistic OpsCore,175,rhsusf_opscore_aor2_pelt
+FAST Ballistic OpsCore,175,rhsusf_opscore_aor2_pelt_nsw
+FAST Ballistic OpsCore,175,rhsusf_opscore_bk
+FAST Ballistic OpsCore,175,rhsusf_opscore_bk_pelt
+FAST Ballistic OpsCore,175,rhsusf_opscore_coy_cover
+FAST Ballistic OpsCore,175,rhsusf_opscore_coy_cover_pelt
+FAST Ballistic OpsCore,175,rhsusf_opscore_fg
+FAST Ballistic OpsCore,175,rhsusf_opscore_fg_pelt
+FAST Ballistic OpsCore,175,rhsusf_opscore_fg_pelt_cam
+FAST Ballistic OpsCore,175,rhsusf_opscore_fg_pelt_nsw
+FAST Ballistic OpsCore,175,rhsusf_opscore_mc_cover
+FAST Ballistic OpsCore,175,rhsusf_opscore_mc_cover_pelt
+FAST Ballistic OpsCore,175,rhsusf_opscore_mc_cover_pelt_nsw
+FAST Ballistic OpsCore,175,rhsusf_opscore_mc_cover_pelt_cam
+FAST Ballistic OpsCore,175,rhsusf_opscore_mc
+FAST Ballistic OpsCore,175,rhsusf_opscore_mc_pelt
+FAST Ballistic OpsCore,175,rhsusf_opscore_mc_pelt_nsw
+FAST Ballistic OpsCore,175,rhsusf_opscore_paint
+FAST Ballistic OpsCore,175,rhsusf_opscore_paint_pelt
+FAST Ballistic OpsCore,175,rhsusf_opscore_paint_pelt_nsw
+FAST Ballistic OpsCore,175,rhsusf_opscore_paint_pelt_nsw_cam
+FAST Ballistic OpsCore,175,rhsusf_opscore_rg_cover
+FAST Ballistic OpsCore,175,rhsusf_opscore_rg_cover_pelt
+FAST Ballistic OpsCore,175,rhsusf_opscore_ut
+FAST Ballistic OpsCore,175,rhsusf_opscore_ut_pelt
+FAST Ballistic OpsCore,175,rhsusf_opscore_ut_pelt_cam
+FAST Ballistic OpsCore,175,rhsusf_opscore_ut_pelt_nsw
+FAST Ballistic OpsCore,175,rhsusf_opscore_ut_pelt_nsw_cam
+FAST Maritime,175,rhsusf_opscore_mar_fg
+FAST Maritime,175,rhsusf_opscore_mar_fg_pelt
+FAST Maritime,175,rhsusf_opscore_mar_ut
+FAST Maritime,175,rhsusf_opscore_mar_ut_pelt
+Mk6,200,UK3CB_BAF_H_Mk6_DDPM_A
+Mk6,200,UK3CB_BAF_H_Mk6_DDPM_B
+Mk6,200,UK3CB_BAF_H_Mk6_DDPM_C
+Mk6,200,UK3CB_BAF_H_Mk6_DDPM_D
+Mk6,200,UK3CB_BAF_H_Mk6_DDPM_E
+Mk6,200,UK3CB_BAF_H_Mk6_DDPM_F
+Mk6,200,UK3CB_BAF_H_Mk6_DPMT_A
+Mk6,200,UK3CB_BAF_H_Mk6_DPMT_B
+Mk6,200,UK3CB_BAF_H_Mk6_DPMT_C
+Mk6,200,UK3CB_BAF_H_Mk6_DPMT_D
+Mk6,200,UK3CB_BAF_H_Mk6_DPMT_E
+Mk6,200,UK3CB_BAF_H_Mk6_DPMT_F
+Mk6,200,UK3CB_BAF_H_Mk6_DPMW_A
+Mk6,200,UK3CB_BAF_H_Mk6_DPMW_B
+Mk6,200,UK3CB_BAF_H_Mk6_DPMW_C
+Mk6,200,UK3CB_BAF_H_Mk6_DPMW_D
+Mk6,200,UK3CB_BAF_H_Mk6_DPMW_E
+Mk6,200,UK3CB_BAF_H_Mk6_DPMW_F
+6Б27,200,rhs_6b27m_green
+6Б27,200,rhs_6b27m_green_bala
+6Б27,200,rhs_6b27m_green_ess
+6Б27,200,rhs_6b27m_green_ess_bala
+6Б27,200,rhs_6b27m_ml
+6Б27,200,rhs_6b27m_ml_bala
+6Б27,200,rhs_6b27m_ml_ess
+6Б27,200,rhs_6b27m_ML_ess_bala
+6Б27,200,rhs_6b27m_digi
+6Б27,200,rhs_6b27m_digi_bala
+6Б27,200,rhs_6b27m_digi_ess
+6Б27,200,rhs_6b27m_digi_ess_bala
+6Б27,200,rhs_6b27m
+6Б27,200,rhs_6b27m_bala
+6Б27,200,rhs_6b27m_ess
+6Б27,200,rhs_6b27m_ess_bala
+6Б27,200,rhs_fieldcap_helm_ml
+6Б27,200,rhs_fieldcap_helm_digi
+6Б27,200,rhs_fieldcap_helm
+6Б7-1М,200,rhs_6b7_1m_emr_ess
+6Б7-1М,200,rhs_6b7_1m_emr_ess_bala
+6Б7-1М,200,rhs_6b7_1m_ess
+6Б7-1М,200,rhs_6b7_1m_ess_bala
+ACH,200,rhsusf_ach_bare
+ACH,200,rhsusf_ach_bare_des
+ACH,200,rhsusf_ach_bare_des_ess
+ACH,200,rhsusf_ach_bare_des_headset
+ACH,200,rhsusf_ach_bare_des_headset_ess
+ACH,200,rhsusf_ach_bare_ess
+ACH,200,rhsusf_ach_bare_headset
+ACH,200,rhsusf_ach_bare_headset_ess
+ACH,200,rhsusf_ach_bare_semi
+ACH,200,rhsusf_ach_bare_semi_ess
+ACH,200,rhsusf_ach_bare_semi_headset
+ACH,200,rhsusf_ach_bare_semi_headset_ess
+ACH,200,rhsusf_ach_bare_tan
+ACH,200,rhsusf_ach_bare_tan_ess
+ACH,200,rhsusf_ach_bare_tan_headset
+ACH,200,rhsusf_ach_bare_tan_headset_ess
+ACH,200,rhsusf_ach_bare_wood
+ACH,200,rhsusf_ach_bare_wood_ess
+ACH,200,rhsusf_ach_bare_wood_headset
+ACH,200,rhsusf_ach_bare_wood_headset_ess
+ACH,200,rhsusf_ach_helmet_M81
+ACH,200,rhsusf_ach_helmet_ocp
+ACH,200,rhsusf_ach_helmet_ESS_ocp
+ACH,200,rhsusf_ach_helmet_headset_ocp
+ACH,200,rhsusf_ach_helmet_headset_ess_ocp
+ACH,200,rhsusf_ach_helmet_camo_ocp
+ACH,200,rhsusf_ach_helmet_ocp_norotos
+ACH,200,rhsusf_ach_helmet_ucp
+ACH,200,rhsusf_ach_helmet_ESS_ucp
+ACH,200,rhsusf_ach_helmet_headset_ucp
+ACH,200,rhsusf_ach_helmet_headset_ess_ucp
+ACH,200,rhsusf_ach_helmet_ucp_norotos
+Beret,0,UK3CB_BAF_H_Beret_PR
+Beret,0,UK3CB_BAF_H_Beret_PR_PRR
+Beret,0,UK3CB_BAF_H_Beret_PR_PRR_Over
+6Б47,250,rhs_6b47
+6Б47,250,rhs_6b47_bala
+6Б47,250,rhs_6b47_ess
+6Б47,250,rhs_6b47_ess_bala
+Mk7,250,UK3CB_BAF_H_Mk7_Win_A
+Mk7,250,UK3CB_BAF_H_Mk7_Win_ESS_A
+Mk7,250,UK3CB_BAF_H_Mk7_HiVis
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_A
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_B
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_C
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_D
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_E
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_F
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_CESS_A
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_CESS_B
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_CESS_C
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_CESS_D
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_ESS_A
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_ESS_B
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_ESS_C
+Mk7,250,UK3CB_BAF_H_Mk7_Camo_ESS_D
+Mk7,250,UK3CB_BAF_H_Mk7_Net_A
+Mk7,250,UK3CB_BAF_H_Mk7_Net_B
+Mk7,250,UK3CB_BAF_H_Mk7_Net_C
+Mk7,250,UK3CB_BAF_H_Mk7_Net_D
+Mk7,250,UK3CB_BAF_H_Mk7_Net_CESS_A
+Mk7,250,UK3CB_BAF_H_Mk7_Net_CESS_B
+Mk7,250,UK3CB_BAF_H_Mk7_Net_CESS_C
+Mk7,250,UK3CB_BAF_H_Mk7_Net_CESS_D
+Mk7,250,UK3CB_BAF_H_Mk7_Net_ESS_A
+Mk7,250,UK3CB_BAF_H_Mk7_Net_ESS_B
+Mk7,250,UK3CB_BAF_H_Mk7_Net_ESS_C
+Mk7,250,UK3CB_BAF_H_Mk7_Net_ESS_D
+Mk7,250,UK3CB_BAF_H_Mk7_Scrim_A
+Mk7,250,UK3CB_BAF_H_Mk7_Scrim_B
+Mk7,250,UK3CB_BAF_H_Mk7_Scrim_C
+Mk7,250,UK3CB_BAF_H_Mk7_Scrim_D
+Mk7,250,UK3CB_BAF_H_Mk7_Scrim_E
+Mk7,250,UK3CB_BAF_H_Mk7_Scrim_F
+Mk7,250,UK3CB_BAF_H_Mk7_Scrim_ESS_A
+Mk7,250,UK3CB_BAF_H_Mk7_Scrim_ESS_B
+Mk7,250,UK3CB_BAF_H_Mk7_Scrim_ESS_C
+PASGT,250,CUP_H_CDF_H_PASGT_DST
+PASGT,250,CUP_H_CDF_H_PASGT_FST
+PASGT,250,CUP_H_CDF_H_PASGT_MNT
+PASGT,250,CUP_H_CDF_H_PASGT_SNW
+PASGT,250,CUP_H_CDF_H_PASGT_UN
+PASGT,250,rhsgref_helmet_pasgt_3color_desert
+PASGT,250,rhsgref_helmet_pasgt_3color_desert_rhino
+PASGT,250,rhsgref_helmet_pasgt_altis_lizard
+PASGT,250,rhsgref_helmet_pasgt_erdl
+PASGT,250,rhsgref_helmet_pasgt_erdl_rhino
+PASGT,250,rhsgref_helmet_pasgt_flecktarn
+PASGT,250,rhsgref_helmet_pasgt_olive
+PASGT,250,rhsgref_helmet_pasgt_press
+PASGT,250,rhsgref_helmet_pasgt_un
+PASGT,250,rhsgref_helmet_pasgt_woodland
+PASGT,250,rhsgref_helmet_pasgt_woodland_rhino
+PASGT,250,TRYK_H_PASGT_BLK
+PASGT,250,TRYK_H_PASGT_COYO
+PASGT,250,TRYK_H_PASGT_OD
+PASGT,250,TRYK_H_PASGT_TAN
+MICH 2000,300,PO_H_mich_bare_isof_1_nortos_blk
+MICH 2000,300,PO_H_mich_bare_isof_1_nortos_alt_blk
+MICH 2000,300,PO_H_mich_bare_isof_1_nortos_hs_blk
+MICH 2000,300,PO_H_mich_bare_isof_2_nortos_blk
+MICH 2000,300,PO_H_mich_bare_isof_2_nortos_alt_blk
+MICH 2000,300,PO_H_mich_bare_isof_2_nortos_hs_blk
+MICH 2000,300,PO_H_mich_bare_isof_3_nortos_blk
+MICH 2000,300,PO_H_mich_bare_isof_3_nortos_alt_blk
+MICH 2000,300,PO_H_mich_bare_isof_3_nortos_hs_blk
+MICH 2000,300,VSM_Mich2000_AOR1
+MICH 2000,300,VSM_Mich2000_M81
+MICH 2000,300,VSM_Mich2000_MulticamTropic
+MICH 2000,300,VSM_Mich2000_Multicam
+MICH 2000,300,VSM_Mich2000_ocp
+MICH 2000,300,VSM_Mich2000_CamoSprayOD
+MICH 2000,300,VSM_Mich2000_OGA_OD
+MICH 2000,300,VSM_Mich2000_OGA
+MICH 2000,300,VSM_Mich2000_ProjectHonor
+MICH 2000,300,VSM_Mich2000_CamoSprayTAN
+MICH 2000,300,VSM_Mich2000_2_aor1
+MICH 2000,300,VSM_Mich2000_2_M81
+MICH 2000,300,VSM_Mich2000_2_MulticamTropic
+MICH 2000,300,VSM_Mich2000_2_Multicam
+MICH 2000,300,VSM_Mich2000_2_OCP
+MICH 2000,300,VSM_Mich2000_2_CamoSprayOD
+MICH 2000,300,VSM_Mich2000_2_OGA_OD
+MICH 2000,300,VSM_Mich2000_2_OGA
+MICH 2000,300,VSM_Mich2000_2_ProjectHonor
+MICH 2000,300,VSM_Mich2000_2_CamoSprayTAN
+MICH 2000,300,rhsusf_mich_bare
+MICH 2000,300,CUP_H_USArmy_HelmetMICH_earpro_ess
+MICH 2000,300,CUP_H_USArmy_HelmetMICH_earpro
+MICH 2000,300,CUP_H_USArmy_HelmetMICH_ESS
+MICH 2000,300,CUP_H_USArmy_HelmetMICH_headset_ess
+MICH 2000,300,CUP_H_USArmy_HelmetMICH_headset
+MICH 2000,300,CUP_H_USArmy_HelmetMICH
+MICH 2000,300,rhsusf_mich_bare_alt
+MICH 2000,300,rhsusf_mich_bare_headset
+MICH 2000,300,CUP_H_USArmy_HelmetMICH_wdl
+MICH 2000,300,CUP_H_USMC_MICH2000_DES
+MICH 2000,300,CUP_H_USMC_MICH2000_WDL
+MICH 2000,300,rhsusf_mich_bare_norotos
+MICH 2000,300,rhsusf_mich_bare_norotos_alt
+MICH 2000,300,rhsusf_mich_bare_norotos_alt_headset
+MICH 2000,300,rhsusf_mich_bare_norotos_arc
+MICH 2000,300,rhsusf_mich_bare_norotos_arc_alt
+MICH 2000,300,rhsusf_mich_bare_norotos_arc_alt_headset
+MICH 2000,300,rhsusf_mich_bare_norotos_arc_headset
+MICH 2000,300,rhsusf_mich_bare_norotos_headset
+MICH 2000,300,rhsusf_mich_bare_semi
+MICH 2000,300,rhsusf_mich_bare_alt_semi
+MICH 2000,300,rhsusf_mich_bare_semi_headset
+MICH 2000,300,rhsusf_mich_bare_norotos_semi
+MICH 2000,300,rhsusf_mich_bare_norotos_alt_semi
+MICH 2000,300,rhsusf_mich_bare_norotos_alt_semi_headset
+MICH 2000,300,rhsusf_mich_bare_norotos_arc_semi
+MICH 2000,300,rhsusf_mich_bare_norotos_arc_alt_semi
+MICH 2000,300,rhsusf_mich_bare_norotos_arc_alt_semi_headset
+MICH 2000,300,rhsusf_mich_bare_norotos_arc_semi_headset
+MICH 2000,300,rhsusf_mich_bare_norotos_semi_headset
+MICH 2000,300,rhsusf_mich_bare_tan
+MICH 2000,300,rhsusf_mich_bare_alt_tan
+MICH 2000,300,rhsusf_mich_bare_tan_headset
+MICH 2000,300,rhsusf_mich_bare_norotos_tan
+MICH 2000,300,rhsusf_mich_bare_norotos_alt_tan
+MICH 2000,300,rhsusf_mich_bare_norotos_alt_tan_headset
+MICH 2000,300,rhsusf_mich_bare_norotos_arc_tan
+MICH 2000,300,rhsusf_mich_bare_norotos_arc_alt_tan
+MICH 2000,300,rhsusf_mich_bare_norotos_arc_alt_tan_headset
+MICH 2000,300,rhsusf_mich_bare_norotos_tan_headset
+MICH 2000,300,CUP_H_CZ_Helmet07
+MICH 2000,300,CUP_H_CZ_Helmet08
+MICH 2000,300,CUP_H_CZ_Helmet09
+MICH 2000,300,CUP_H_CZ_Helmet10
+MICH 2000,300,rhsusf_mich_helmet_marpatd
+MICH 2000,300,rhsusf_mich_helmet_marpatd_alt
+MICH 2000,300,rhsusf_mich_helmet_marpatd_alt_headset
+MICH 2000,300,rhsusf_mich_helmet_marpatd_headset
+MICH 2000,300,rhsusf_mich_helmet_marpatd_norotos
+MICH 2000,300,rhsusf_mich_helmet_marpatd_norotos_arc
+MICH 2000,300,rhsusf_mich_helmet_marpatd_norotos_arc_headset
+MICH 2000,300,rhsusf_mich_helmet_marpatd_norotos_headset
+MICH 2000,300,rhsusf_mich_helmet_marpatwd
+MICH 2000,300,rhsusf_mich_helmet_marpatwd_alt
+MICH 2000,300,rhsusf_mich_helmet_marpatwd_alt
+MICH 2000,300,rhsusf_mich_helmet_marpatwd_headset
+MICH 2000,300,rhsusf_mich_helmet_marpatwd_norotos
+MICH 2000,300,rhsusf_mich_helmet_marpatwd_norotos_arc
+MICH 2000,300,rhsusf_mich_helmet_marpatwd_norotos_arc_headset
+MICH 2000,300,rhsusf_mich_helmet_marpatwd_norotos_headset
+MICH 2000,300,CUP_H_USMC_MICH2000_COMM_DES
+MICH 2000,300,CUP_H_USMC_MICH2000_COMM_WDL
+MICH 2000,300,CUP_H_USMC_MICH2000_DEF_DES
+MICH 2000,300,CUP_H_USMC_MICH2000_DEF_WDL
+MICH 2000,300,CUP_H_USMC_MICH2000_DEF_ESS_DES
+MICH 2000,300,CUP_H_USMC_MICH2000_DEF_ESS_WDL
+MICH 2000,300,CUP_H_USMC_MICH2000_ESS_COMM_DES
+MICH 2000,300,CUP_H_USMC_MICH2000_ESS_COMM_WDL
+Алтын,300,rhs_altyn_novisor
+Алтын,300,rhs_altyn_novisor_bala
+Алтын,300,rhs_altyn_novisor_ess
+Алтын,300,rhs_altyn_novisor_ess_bala
+Алтын,300,rhs_altyn_visordown
+Алтын,300,rhs_altyn
+Алтын,300,rhs_altyn_bala
+9mm 17 Rnd Mag,20,16Rnd_9x21_Mag
+9mm 30 Rnd Mag,30,30Rnd_9x21_Mag
+.45 25Rnd Mag,30,30Rnd_45ACP_Mag_SMG_01
+.45 25Rnd Tracer Mag,35,30Rnd_45ACP_Mag_SMG_01_Tracer_Green
+Магазин на 30 станд. трас. патронов 9мм,35,30Rnd_9x21_Mag_SMG_02
+6.5mm 30Rnd Mag,70,30Rnd_65x39_caseless_green
+Магазин с 30 безгильзовыми трас. патронами,60,30Rnd_65x39_caseless_green_Tracer
+7.62mm 150Rnd Box,170,150Rnd_762x54_Box
+Коробка на 150 трассирующих патронов 7.62,200,150Rnd_762x54_Box_Tracer
+.45 ACP Шестизарядный,5,6Rnd_45ACP_Cylinder
+.45 8Rnd,10,9Rnd_45ACP_Mag
+Maгазин на 11 патронов .45АСР,12,11Rnd_45ACP_Mag
+Лента на 150 патронов 9.3мм,300,150Rnd_93x64_Mag
+Магазин из 30-ти 5.56мм ИК-трассирующих,90,ACE_30Rnd_556x45_Stanag_Tracer_Dim
+Магазин из 30-ти 5.56мм (М995 Бронебойные),120,ACE_30Rnd_556x45_Stanag_M995_AP_mag
+Магазин из 30-ти 5.56мм (Мк318),60,ACE_30Rnd_556x45_Stanag_Mk318_mag
+Магазин из 30-ти 5.56мм Мк 262,70,ACE_30Rnd_556x45_Stanag_Mk262_mag
+Магазин из 5-ти 12.7х99мм,60,ACE_5Rnd_127x99_Mag
+Магазин из 5-ти 12.7х99мм (А-МАХ),80,ACE_5Rnd_127x99_AMAX_Mag
+Магазин из 5-ти 12.7х99мм (бронебойно-зажигатильные),120,ACE_5Rnd_127x99_API_Mag
+Магазин из 30-ти 6.5мм ИК-трассирующих,100,ACE_30Rnd_65x39_caseless_mag_Tracer_Dim
+Магазин из 7-ти .408 (305gr),50,ACE_7Rnd_408_305gr_Mag
+Магазин из 20-ти 7.62мм (M118LR),70,ACE_20Rnd_762x51_M118LR_Mag
+Магазин из 20-ти 7.62мм (М995 бронебойные),100,ACE_20Rnd_762x51_M993_AP_Mag
+Магазин из 20-ти 7.62мм (Mk316 Mod 0),90,ACE_20Rnd_762x51_Mk316_Mod_0_Mag
+Магазин из 20-ти 7.62мм (Mk319 Mod 0),80,ACE_20Rnd_762x51_Mk319_Mod_0_Mag
+Магазин из 20-ти 7.62мм дозвуковых,80,ACE_20Rnd_762x51_Mag_SD
+Магазин из 20-ти 7.62мм ИК-трассирующих,60,ACE_20Rnd_762x51_Mag_Tracer_Dim
+Магазин из 20-ти 7.62мм трассирующих,80,ACE_20Rnd_762x51_Mag_Tracer
+Магазин из 20-ти 7.62мм (Berger Hybrid OTM),75,ACE_20Rnd_762x67_Berger_Hybrid_OTM_Mag
+Магазин из 20-ти 7.62мм (Mk248 Mod 0),80,ACE_20Rnd_762x67_Mk248_Mod_0_Mag
+Магазин из 20-ти 7.62мм (Mk248 Mod 1),85,ACE_20Rnd_762x67_Mk248_Mod_1_Mag
+Магазин из 10-ти .338 (300 гран Lapua Scenar),40,ACE_10Rnd_338_300gr_HPBT_Mag
+Магазин из 10-ти .338 (API526),60,ACE_10Rnd_338_API526_Mag
+Магазин из 20-ти 6.5mm Creedmor,80,ACE_20Rnd_65_Creedmor_mag
+Магазин из 20-ти 6.5x47mm (экспансивные Scenar),70,ACE_20Rnd_65x47_Scenar_mag
+Магазин на 30 патронов 5.8мм,70,30Rnd_580x42_Mag_F
+Магазин на 30 трас. патронов 5.8мм,90,30Rnd_580x42_Mag_Tracer_F
+Магазин на 100 патронов 5.8мм,120,100Rnd_580x42_Mag_F
+Магазин на 100 трас. патронов 5.8мм,140,100Rnd_580x42_Mag_Tracer_F
+Запасной магазин на 30 трас. патронами 7.62,80,30Rnd_762x39_Mag_F
+Магазин на 30 трас. патронов 7.62мм,90,30Rnd_762x39_Mag_Green_F
+20Rnd Buckshot,30,20Rnd_AA12_Pellets
+20Rnd Explosive,120,20Rnd_AA12_HE
+20Rnd Slugs,40,20Rnd_AA12_74Slug

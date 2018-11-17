@@ -13,20 +13,17 @@ namespace Economic
 	public class CustomException : Exception
 	{
 		private Logger logger = new Logger();
+		public ErrorCodes.Codes Code = ErrorCodes.Codes.Ok;
 
 		public CustomException()
 		{
-			Logger.Log("Custom exception throed without any error code!", this.Source);
-		}
-
-		~CustomException()
-		{
-			logger = null;
+			Logger.Log("Custom exception throwed without any error code!", this.Source);
 		}
 
 		public CustomException(ErrorCodes.Codes code) : base(code.ToString())
 		{
 			Logger.Log($"{code.ToString()} {code.GetDescription()}", this.Source.ToString());
+			Code = code;
 		}
 
 		public CustomException(ErrorCodes.Codes code, Exception inner) : base(code.ToString(), inner)
@@ -58,7 +55,7 @@ namespace Economic
 			MethodCall = 104,
 			
 			[Description("Error while cashing method")]
-			MethodCash = 105,
+			MethodCache = 105,
 			
 			[Description("Alarm! Somebody has stolen our data!")]
 			DataFileNotFound = 201,
@@ -76,7 +73,19 @@ namespace Economic
 			NullSteamId = 300,
 			
 			[Description("Wrong steam id")]
-			WrongSteamId = 301
+			WrongSteamId = 301,
+
+			[Description("Data validation failed")]
+			ValidationFailed = 302,
+
+			[Description("Gear is in blacklist")]
+			BlacklistedGear = 400,
+
+			[Description("Gettion player's loadout failed")]
+			GetLoadoutFailed = 401,
+
+			[Description("Unknow error")]
+			UnknownError = 404
 		}
 		
 		public static string GetDescription(this Codes value)

@@ -1,0 +1,75 @@
+onLoadName = "SHADEC Economy";
+
+//HUD definitions
+class RscTitles
+{
+	class ArsenalCaxhTitle
+	{    
+		idd = 7000;
+		duration = 9999;
+        fadeIn = 0;
+        fadeOut = 0;
+        onLoad = "uiNamespace setVariable ['ArsenalHUD',_this select 0]";
+        onUnload = "uiNamespace setVariable ['ArsenalHUD',displayNull]";
+        onDestroy = "uiNamespace setVariable ['ArsenalHUD',displayNull]";
+		class controlsBackground
+		{
+			class MoneyText
+			{    
+				idc = 7001;
+				type = 0;
+				style = "0x02";
+				x = 0.5; 
+				y = 1;
+				w = 0.5;
+				h = 0.2;
+				font = "EtelkaNarrowMediumPro";
+				sizeEx = 0.1;
+				colorBackground[] = {0,0,0,1};
+				colorText[] = {1,1,1,1};
+				text = "Not loaded";
+			};  
+		};	
+	};
+    class Clear
+    {
+        idd = -1;
+        duration = 0;
+    }
+};
+
+//Function library definitions
+class CfgFunctions
+{
+    class Shadec
+    {
+        class Generic
+        {
+            class GetPlayerCash {};
+            class SetPlayerCash {};
+            class GetPlayerSavedLoadout {};
+            class SetPlayerSavedLoadout {};
+            class GetItemPrice {};
+            class NewGearPrice {};
+            class SaveString {};
+        };
+    };
+};
+
+//Remote execution config
+class CfgRemoteExec
+{
+        class Functions
+        {
+                mode = 3;  //For debug. TODO: Change it later
+                jip = 0;   //no functions can use jip
+
+                class Shadec_fnc_GetPlayerCash {allowedTargets = 2;};
+                class Shadec_fnc_SetPlayerCash {allowedTargets = 2;};
+                class Shadec_fnc_GetPlayerSavedLoadout {allowedTargets = 2;};
+                class Shadec_fnc_SetPlayerSavedLoadout {allowedTargets = 2;};
+                class Shadec_fnc_GetItemPrice {allowedTargets = 2;};
+                class Shadec_fnc_NewGearPrice {allowedTargets = 2;};
+                class Shadec_fnc_SaveString {allowedTargets = 2;};
+        };
+};

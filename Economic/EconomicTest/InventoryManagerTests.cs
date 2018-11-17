@@ -35,10 +35,10 @@ namespace EconomicTests
 		[TestMethod]
 		public void NewGearCostTest()
 		{
-			string newLoadout = "[ItemGPS]";
-			int expectedCost = 100;
+			string newLoadout = "[ItemGPS, [ItemGPS]]";
+			int expectedCost = 200;
 
-			int actualCost = inventoryManager.NewGearCost("", newLoadout);
+			int actualCost = inventoryManager.NewGearCost("", newLoadout, "129");
 
 			Assert.IsTrue(expectedCost == actualCost);
 		}
