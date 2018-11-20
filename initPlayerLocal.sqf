@@ -15,7 +15,7 @@ _EH_ArsenalOpen = ["ace_arsenal_displayOpened",
     }, {true}]] call ACE_arsenal_fnc_addStat; //:Add last arg if needed
 
     //Player cash value update, new stat on page 2
-    [[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14], [7]], "playerCash", ["cash"], "Cash", [false, true], [{}, {
+    [[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14], [0,1,2,3,4,5,6,7]], "playerCash", ["cash"], "Cash", [false, true], [{}, {
         params ["_stats", "_config"];
         _uid = getPlayerUID player;
         _cash = missionNamespace getVariable [str _uid + "_cash", "ErrorUp"];
