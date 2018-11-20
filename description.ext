@@ -18,16 +18,17 @@ class RscTitles
 			{    
 				idc = 7001;
 				type = 0;
-				style = "0x02";
-				x = 0.5; 
+				style = "18";
+                		x = 0.5;
 				y = 1;
-				w = 0.5;
-				h = 0.2;
+				w = 0.4;
+				h = 0.15;
 				font = "EtelkaNarrowMediumPro";
-				sizeEx = 0.1;
-				colorBackground[] = {0,0,0,1};
+				sizeEx = 0.07;
+				colorBackground[] = {0,0,0,0.5};
 				colorText[] = {1,1,1,1};
 				text = "Not loaded";
+                lineSpacing = 1;
 			};  
 		};	
 	};
