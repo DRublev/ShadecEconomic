@@ -1,6 +1,6 @@
 # ShadecEconomic
 Arma 3 economic script for Shadec Server. 
-@Suffered over it: Spunky, Hadwig
+@Suffered over it: Spunky, Hadwig, Borland
 
 # Installation guide
 
